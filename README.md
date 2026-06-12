@@ -30,8 +30,8 @@ xxx
 This data repository consist of 2 data files, 2 code scripts, 1 license, and this README document, with the following data and code filenames and variables
 
 Data files and variables
-    1. OR_FIDs.csv 
-    2. escape.csv
+    1. hare_FID.csv 
+    2. escape_pred.csv
     
 ### Variables
 
