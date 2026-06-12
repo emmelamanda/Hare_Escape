@@ -1,0 +1,1758 @@
+﻿Observer,Date,Eartag,rep,Frequency,Survival,Observation,UTM-E,UTM_Northing,Concealment,WCC,P_White,snow_1m,snow_10m,FID_m
+,6/20/20,8002,,152.778,Alive,Antenna,n/a,n/a,,UNK,,0,0,NA
+,6/22/20,8068,,149.185,Alive,Antenna,n/a,n/a,,UNK,,0,0,NA
+,6/22/20,8036,,149.793,Allive,Antenna,n/a,n/a,,,,0,0,NA
+,6/22/20,8015,,152.008,Alive,Antenna,n/a,n/a,,UNK,,0,0,NA
+,6/22/20,8051,,152.478,Alive,Antenna,n/a,n/a,,,,0,0,NA
+,6/23/20,8028,,151.703,Dead,N/a,122.00693,44.252988,,,,0,0,NA
+,6/23/20,8065,,150.584,Dead,Antenna,122.00797,44.25306,,,,0,0,NA
+,6/23/20,8040,1,151.523,Alive,Visual,122.00872,44.25597,,B,0,0,0,12
+,6/24/20,8043,,151.439,Dead,n/a,122.02977,44.22765,n/a,,n/a,0,0,NA
+,6/24/20,8036,,149.793,n/a,n/a,n/a,n/a,,,,0,0,NA
+AE,6/24/20,8068,1,149.185,Alive,Visual,122.000361,44.305301,NA,B,0,0,0,1
+,6/24/20,8048,,152.077,Dead,Antenna,n/a,n/a,,UNK,n/a,0,0,NA
+,6/29/20,8040,,151.523,Alive,Antenna,n/a,n/a,,,n/a,0,0,NA
+,6/29/20,8048,,152.077,Dead,Antenna,n/a,n/a,,UNK,n/a,0,0,NA
+,6/29/20,8030,,150.855,Alive,Antenna,n/a,n/a,,,n/a,0,0,NA
+,6/29/20,8016,,149.514,Alive,Antenna,n/a,n/a,,UNK,n/a,0,0,NA
+,6/29/20,8027,,151.503,No Signal,Antenna,n/a,n/a,,UNK,n/a,0,0,NA
+,6/29/20,8006,,151.482,Dead,Antenna,n/a,n/a,,UNK,n/a,0,0,NA
+,6/29/20,8002,,149.593,Alive,Antenna,n/a,n/a,,UNK,n/a,0,0,NA
+,6/29/20,8029,,151.754,Alive,Antenna,n/a,n/a,,UNK,n/a,0,0,NA
+,6/29/20,8068,,152.778,Alive,Antenna,n/a,n/a,,UNK,n/a,0,0,NA
+,6/29/20,8036,,149.185,Alive,Antenna,n/a,n/a,,,n/a,0,0,NA
+,6/29/20,8015,,149.793,No Signal,Antenna,n/a,n/a,,UNK,n/a,0,0,NA
+,6/29/20,8051,,152.088,Alive,Antenna,n/a,n/a,,,n/a,0,0,NA
+,6/29/20,8022,,152.478,Dead,Antenna,n/a,n/a,,UNK,n/a,0,0,NA
+,7/1/20,8048,,152.077,Dead,Antenna,,,,UNK,,,,NA
+,7/1/20,8006,,151.482,Dead,Antenna,,,,UNK,,,,NA
+,7/1/20,8002,1,149.593,Alive,Antenna,,,4,W,0,0,0,4
+,7/2/20,8006,,151.482,Dead,Antenna,122.002,44.494,n/a,UNK,n/a,0,0,NA
+,7/5/20,8016,,149.514,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+,7/5/20,8030,,150.855,Alive,Antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+,7/5/20,8002,,149.593,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+,7/5/20,8068,,152.778,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+,7/5/20,8029,,151.754,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+,7/5/20,8048,,152.077,Dead,Antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+,7/5/20,8036,,149.185,Alive,Antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+,7/5/20,8051,,152.088,Alive,Antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+,7/5/20,8022,,152.478,Dead,Antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+,7/5/20,8040,,151.523,Alive,Antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+AE,7/13/20,8040,,151.523,Alive,Visual,578977,4900731,1,B,0,0,0,NA
+LC,7/13/20,8040,2,151.523,Alive,Antenna,579196,4900458,4,B,0,0,0,8
+LC,7/13/20,8051,,152.088,Alive,Antenna,581963,4906318,4,B,0,0,0,NA
+AE,7/13/20,8022,,152.478,Dead,Retrieval ,581814,4905951,n/a,UNK,n/a,0,0,NA
+AE,7/13/20,8015,,149.793,No Signal,n/a,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,7/13/20,8036,,149.185,Alive,Antenna,579767,4906301,n/a,,n/a,0,0,NA
+LC,7/14/20,8792,,151.223,Alive,Visual,581542,4923671,1,UNK,0,0,0,NA
+AE,7/14/20,8011,,151.285,Alive,Visual,580757,4923806,4,B,0,0,0,NA
+AE,7/14/20,8752,,151.482,Dead,Retrieval ,581493,4923358,n/a,UNK,0,0,0,NA
+LC,7/14/20,8002,2,149.593,Alive,Visual,582106,4926840,4,W,0,0,0,0.5
+"AE, LC",7/14/20,8068,,152.778,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"AE, LC",7/15/20,8036,,149.185,Alive,Antenna,579805,4906344,n/a,,n/a,0,0,NA
+AE,7/15/20,8011,1,151.285,Alive,Visual,580769,4923776,4,B,0,0,0,1
+AE,7/16/20,8030,,150.855,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LC",7/16/20,8016,,149.514,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"AE, LC",7/20/20,8792,,151.223,alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"AE, LC",7/20/20,8012,,151.603,alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LC",7/20/20,8011,,151.285,alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LC",7/20/20,8794,,150.909,alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"AE, LC",7/20/20,8002,,149.593,alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"AE, LC",7/20/20,8016,,149.514,alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"AE, LC",7/20/20,8030,,150.855,alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LC",7/20/20,8068,,152.778,alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"AE, LC",7/20/20,8029,,151.754,dead,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"AE, LC",7/20/20,8036,,149.185,alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LC",7/20/20,8040,,151.523,alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LC",7/27/20,8029,,151.754,dead,Antenna,,,,UNK,,,,NA
+"AE, LC",7/27/20,8068,,152.778,alive,Antenna,,,,UNK,,,,NA
+"AE, LC",7/27/20,8002,,149.593,dead,Antenna,,,,UNK,,,,NA
+"AE, LC",7/27/20,8010,,151.439,alive,Antenna,,,,W,,,,NA
+"AE, LC",7/27/20,8030,,150.855,alive,Antenna,,,,,,,,NA
+"AE, LC",7/27/20,8016,,149.514,No Signal,Antenna,,,,UNK,,,,NA
+"AE, LC",7/27/20,8020,,150.584,alive,Antenna,,,,,,,,NA
+"AE, LC",7/27/20,8794,,150.909,alive,Antenna,,,,UNK,,,,NA
+"AE, LC",7/27/20,8011,,151.285,alive,Antenna,,,,,,,,NA
+"AE, LC",7/27/20,8792,,151.223,alive,Antenna,,,,UNK,,,,NA
+"AE, LC",7/27/20,,,150.289,alive,Antenna,,,,,,,,NA
+"AE, LC",7/27/20,8012,,151.603,alive,Antenna,,,,,,,,NA
+"AE, LC",7/27/20,8036,,149.185,alive,Antenna,,,,,,,,NA
+"AE, LC",7/27/20,8051,,152.088,alive,Antenna,,,,,,,,NA
+LC,7/27/20,8040,,151.523,alive,Visual,579022,4900719,3,B,0,0,0,NA
+LC,7/27/20,8036,1,149.185,alive,Visual,579730,4906250,4,B,0,0,0,5
+AE,7/27/20,8051,,152.088,alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,7/27/20,8012,1,151.603,alive,Visual,581076,4924316,4,B,0,0,0,5
+AE,7/27/20,8792,1,151.223,alive,Visual,581583,4923673,3,UNK,0,0,0,1.5
+AE,7/27/20,8797,1,150.289,alive,Antenna,581333,4923697,4,B,0,0,0,2
+lc,7/27/20,8002,,149.593,dead,Antenna,582104,4926908,n/a,UNK,n/a,0,0,NA
+AE,7/27/20,8010,1,151.439,Alive,Visual,580393,4926786,1,W,0,0,0,4.5
+AE,7/28/20,8011,,151.285,alive,Visual,580701,4923659,3,B,0,0,0,NA
+LC,7/28/20,8794,,150.909,alive,Antenna,n/a,n/a,n/a,UNK,0,0,0,NA
+LC,7/28/20,8020,1,150.584,alive,Visual,580691,4923616,4,B,0,0,0,4
+LC,7/28/20,8029,,151.754,dead,Antenna,579146,4930137,n/a,UNK,n/a,0,0,NA
+"AE, LC",8/3/20,8800,,150.959,dead,Antenna,580718,4927817,n/a,UNK,n/a,0,0,NA
+LC,8/3/20,8010,,151.439,Alive,Antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,8/3/20,8068,,152.778,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/3/20,8030,,150.855,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/3/20,8027,,150.503,No Signal,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/3/20,8016,,149.514,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/3/20,8012,,151.603,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/3/20,8011,,151.285,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/3/20,8794,,150.909,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/3/20,8020,,150.584,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/3/20,8792,,151.223,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/3/20,8797,,150.289,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/3/20,8036,,149.185,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/3/20,8051,,152.088,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/3/20,8040,,151.523,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/9/20,8792,,151.223,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+AE,8/9/20,8797,,150.289,Alive,Visual,581304,4923544,2,B,0,0,0,NA
+LC,8/9/20,8012,2,151.603,Alive,Visual,581065,4924314,4,B,0,0,0,0.5
+LC,8/9/20,8012,3,151.603,Alive,Visual,581100,4924294,1,B,0,0,0,6
+AE,8/10/20,8040,,151.523,Alive,Antenna,n/a,n/a,n/a,,0,0,0,NA
+LC,8/10/20,8036,2,149.185,Alive,Visual,579745,4906275,4,B,0,0,0,8
+AE,8/10/20,8051,,152.088,Alive,Antenna,n/a,n/a,n/a,,0,0,0,NA
+AE,8/10/20,8794,1,150.909,Alive,Visual,580828,4923769,4,B,0,0,0,2
+LC,8/10/20,8011,2,151.285,Alilve,Visual,580777,4923758,4,B,0,0,0,4
+AE,8/10/20,8020,,149.185,Alive,Visual,581127,4923879,n/a,,0,0,0,NA
+LC,8/10/20,8010,2,151.439,Alive,Visual,580332,4926821,1,W,0,0,0,2
+AE,8/10/20,8030,1,150.855,Alive,Antenna,579480,4927389,4,B,0,0,0,2
+LC,8/10/20,8068,,152.778,Alive,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"AE, LC",8/10/20,8016,,149.514,No Signal,Antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+AE,9/26/20,8792,,151.223,dead,Antenna,n/a,,,UNK,,,,NA
+AE,9/26/20,8797,,150.289,Alive,Antenna,n/a,,,,,,,NA
+AE,9/26/20,8012,,151.603,Alive,Antenna,n/a,,,,,,,NA
+AE,9/26/20,8011,,151.285,Alive,Antenna,n/a,,,,,,,NA
+AE,9/26/20,8020,,150.584,Alive,Antenna,n/a,,,,,,,NA
+AE,9/26/20,8794,,150.909,Alive,Antenna,n/a,,,UNK,,,,NA
+AE,9/26/20,8030,,150.855,Alive,Antenna,n/a,,,,,,,NA
+AE,9/26/20,8010,,151.439,Alive,Antenna,n/a,,,W,,,,NA
+AE,9/26/20,8016,,149.514,No Signal,n/a,n/a,,,UNK,,,,NA
+AE,9/26/20,8068,,152.778,Dead,Antenna,579656,4930531,2,UNK,0,0,0,NA
+AE,9/26/20,8036,,149.185,Alive,Antenna,,,,,,,,NA
+AE,9/26/20,8051,,152.088,Alive,Antenna,,,,,,,,NA
+AE,9/26/20,8040,,151.523,Alive,Antenna,,,,,,,,NA
+AE,9/28/20,8040,3,151.523,Alive, Visual,579037,4900719,1,B,0,0,0,7
+AE,9/28/20,8036,3,149.185,Alive, Visual,579818,4906286,2,B,0,0,0,10
+AE,9/28/20,8020,,150.584,Alive, Visual,581111,4923867,4,B,0,0,0,NA
+AE,9/28/20,8794,2,150.909,Alive, Visual,580809,4923841,4,B,0,0,0,0.8
+AE,9/28/20,8011,3,151.285,Alive, Visual,580736,4923649,3,B,0,0,0,4
+AE,10/5/20,8040,,151.523,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+AE,10/5/20,8036,,149.185,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+AE,10/5/20,8051,,152.088,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+AE,10/5/20,8797,2,150.289,Alive,Visual,581284,4923528,4,B,0,0,0,0.5
+AE,10/5/20,8792,,151.223,Dead,Visual,581586,4923667,4,UNK,0,0,0,NA
+AE,10/5/20,8012,,151.603,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+AE,10/5/20,8030,2,150.855,Alive,Visual,580020,4926844,4,B,0,0,0,1
+AE,10/5/20,8010,,151.439,Alive,Antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+AE,10/5/20,8011,,151.285,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+AE,10/5/20,8794,,150.909,Dead,Visual,580797,4923937,n/a,UNK,n/a,0,0,NA
+AE,10/5/20,8020,,150.584,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/8/20,8010,,151.439,Alive,Antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+"AE, LP",10/12/20,8030,,150.855,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/12/20,8010,,151.439,Alive,Antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+"AE, LP",10/12/20,8012,,151.603,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/12/20,8797,,150.289,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/12/20,8011,4,151.285,Alive,Visual,580771,4923608,3,B,0,0,0,1.5
+"AE, LP",10/12/20,8020,2,150.584,Alive,Visual,581101,4923876,4,B,0,0,0,1
+"AE, LP",10/12/20,8040,4,151.523,Alive,Antenna,579128,4900675,4,B,0,0,0,3
+"AE, LP",10/12/20,8051,,152.088,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/12/20,8036,,149.185,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/20/20,8040,,151.523,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/20/20,8036,,149.185,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/20/20,8051,,152.088,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/20/20,8012,,151.603,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/20/20,8016,,149.514,No Signal,Antenna,,,,UNK,,,,NA
+"AE, LP",10/20/20,8010,,151.439,Alive,Antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+"AE, LP",10/20/20,8030,,150.855,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/20/20,8011,,151.285,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/20/20,8020,,150.584,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"AE, LP",10/20/20,8797,,150.289,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+AE,10/22/20,8797,3,150.289,Alive,Visual,581291,4923638,1,B,0,0,0,2
+AE,10/22/20,8012,4,151.603,Alive,Visual,580885,4924876,4,B,0,0,0,1
+AE,10/22/20,8030,,150.855,Alive,Visual,580091,4926959,3,B,10,0,0,NA
+AE,10/22/20,8010,,151.439,Alive,Antenna,580674,4925977,4,W,NA,0,0,NA
+AE,10/27/20,8040,5,151.523,Alive,Visual,579234,4900805,3,B,0,0,0,0.5
+AE,10/27/20,8036,4,149.185,Alive,Visual,579774,4906239,1,B,0,0,0,4.5
+AE,10/27/20,8051,1,152.088,Alive,Visual,581981,4906309,4,B,0,0,0,5
+AE,10/27/20,8012,,151.603,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+AE,10/27/20,8010,,151.439,Alive,Antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+AE,10/27/20,8030,,150.855,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+AE,10/27/20,8020,3,150.584,Alive,Visual,581112,4923865,1,B,0,0,0,0.5
+AE,10/27/20,8011,5,151.285,Alive,Visual,580750,4923795,1,B,5,0,0,2
+AE,10/27/20,8797,,150.289,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LP,11/2/20,8040,,151.523,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LP,11/2/20,8036,,149.185,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LP,11/2/20,8051,,152.088,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LP,11/2/20,8797,,150.289,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LP,11/2/20,8030,,150.855,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LP,11/2/20,8012,,151.603,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LP,11/2/20,8011,,151.285,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LP,11/2/20,8020,,150.504,Alive,Antenna,n/a,n/a,n/a,,n/a,0,0,NA
+AE,11/3/20,8010,,151.439,Alive,Antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+AE,11/3/20,8030,3,150.855,Alive,Visual,580093,4926960,3,B,0,0,0,3
+AE,11/3/20,8797,4,150.289,Alive,Visual,581302,4923562,1,B,0,0,0,7.5
+AE,11/4/20,8012,5,151.603,Alive,Visual,,,3,B,0,0,0,5
+AE,11/9/20,8012,,151.603,Alive,Antenna,,,,,,,,NA
+AE,11/9/20,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+AE,11/9/20,8030,,150.855,Alive,Antenna,,,,,,,,NA
+AE,11/9/20,8797,,150.289,Alive,Antenna,,,,,,,,NA
+AE,11/9/20,8776,1,150.396,Alive,Visual,580817,4923803,1,B,0,NA,75,4.5
+AE,11/9/20,8011,6,151.285,Alive,Visual,580731,4923785,3,B,0,NA,85,0.2
+AE,11/9/20,8020,4,150.584,Alive,Visual,581079,4923946,1,B,0,NA,80,3
+AE,11/9/20,8040,,151.523,Alive,Antenna,579248,4900662,4,B,0,n/a,50,NA
+"AE, LP",11/16/20,8030,,150.855,Alive,Antenna,,,,,,,,NA
+"AE, LP",11/16/20,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+"AE, LP",11/16/20,8012,,151.603,Alive,Antenna,,,,,,,,NA
+"AE, LP",11/16/20,8036,,149.185,Alive,Antenna,,,,,,,,NA
+"AE, LP",11/16/20,8051,,152.088,Alive,Antenna,,,,,,,,NA
+"AE, LP",11/16/20,8040,,151.523,No Signal,Antenna,,,,,,,,NA
+"AE, LP",11/16/20,8797,,150.289,Dead,Antenna,581573,4923926,,,,,,NA
+"AE, LP",11/16/20,8011,,151.285,Alive,Antenna,,,,,,,,NA
+"AE, LP",11/16/20,8020,,150.584,Alive,Antenna,,,,,,,,NA
+"AE, LP",11/16/20,8776,,150.396,No Signal,n/a,,,,,,,,NA
+AE,11/22/20,8040,,151.523,No Signal,n/a,,,,,,,,NA
+AE,11/22/20,8776,2,150.456,Alive,Visual,580807,4923726,3,B,0,100,97,1
+AE,11/22/20,8020,5,150.584,Alive,Visual,581002,4923932,4,B,0,0,95,1
+AE,11/22/20,8011,7,151.285,Alive,Visual,580728,4923676,2,B,0,NA,97,1
+AE,11/22/20,8012,,151.603,Alive,Antenna,,,,,,,,NA
+AE,11/22/20,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+AE,11/22/20,8030,,150.855,Alive,Antenna,,,,,,,,NA
+AE,11/23/20,8051,,152.088,Alive,Antenna,,,,,,,,NA
+AE,11/23/20,8036,5,149.185,Alive,Visual,579816,4906254,n/a,,0,n/a,55,NA
+LP,12/2/20,8012,,151.603,Alive,Antenna,n/a,n/a,,,,,,NA
+LP,12/2/20,8030,,150.855,Alive,Antenna,n/a,n/a,,,,,,NA
+LP,12/2/20,8020,,150.584,Dead,Visual,,,,,,,,NA
+LP,12/2/20,8793,,150.909,Alive,Antenna,n/a,n/a,,W,,,,NA
+LP,12/2/20,8776,,150.289,Alive,Antenna,n/a,n/a,,,,,,NA
+LP,12/2/20,8011,,151.285,Alive,Antenna,n/a,n/a,,,,,,NA
+LP,12/3/20,8030,4,150.855,Alive,Visual,580063,4927100,4,B,0,NA,NA,4
+LP,12/3/20,8010,3,151.439,Alive,Visual,580395,4926849,4,W,100,NA,NA,0.5
+LP,12/3/20,8012,6,151.603,Alive,Visual,581333,4924275,4,B,0,NA,NA,1
+LP,12/6/20,8793,,150.909,Alive,Antenna,,,,W,,,,NA
+LP,12/6/20,8776,,150.289,Alive,Antenna,,,,,,,,NA
+LP,12/6/20,8011,,151.285,Dead,Visual,,,,,,,,NA
+LP,12/6/20,8030,,150.855,Alive,Antenna,,,,,,,,NA
+LP,12/6/20,8010,,151.439,n/a,n/a,,,,W,,,,NA
+LP,12/6/20,8012,,151.603,Alive,Antenna,,,,,,,,NA
+LP,12/6/20,8040,,151.523,Alive,Antenna,,,,,,,,NA
+LP,12/6/20,8036,,149.185,Alive,Antenna,,,,,,,,NA
+LP,12/6/20,8051,,152.088,No Signal,n/a,,,,,,,,NA
+AE,12/14/20,8776,,150.289,Alive,Antenna,,,,,,,,NA
+AE,12/14/20,8793,,150.909,Alive,Antenna,,,,W,,,,NA
+AE,12/14/20,8783,,152.478,Alive,Antenna,,,,,,,,NA
+AE,12/14/20,8786,,150.584,Alive,Antenna,,,,W,,,,NA
+AE,12/14/20,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+AE,12/14/20,8755,,151.754,Alive,Antenna,,,,W,,,,NA
+AE,12/14/20,8030,,150.855,Alive,Antenna,,,,,,,,NA
+AE,12/14/20,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+AE,2/3/21,8780,,151.289,Alive,Antenna,,,,,,,,NA
+AE,2/3/21,8054,,150.454,Dead,Antenna,,,,,,,,NA
+AE,2/3/21,8790,,151.223,Alive,Antenna,,,,W,,,,NA
+AE,2/3/21,8776,,150.289,Alive,Antenna,,,,,,,,NA
+AE,2/3/21,8783,,152.478,Alive,Antenna,,,,,,,,NA
+AE,2/3/21,8786,,150.584,Alive,Antenna,,,,W,,,,NA
+AE,2/3/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+AE,2/3/21,8755,,151.754,Dead,Antenna,,,,W,,,,NA
+AE,2/3/21,8012,,151.603,Alive,Antenna,,,,,,,,NA
+AE,2/3/21,8793,,150.909,Dead,Antenna,,,,W,,,,NA
+AE,2/3/21,n/a,,149.475,Alive,Antenna,,,,,,,,NA
+AE,2/3/21,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+AE,2/3/21,8030,,150.855,Alive,Antenna,,,,,,,,NA
+AE,2/7/21,8780,,151.289,Dead,Visual,52806,4920385,n/a,,n/a,100,100,NA
+AE,2/8/21,8790,,151.223,Alive,Antenna,n/a,n/a,n/a,W,n/a,n/a,n/a,NA
+AE,2/8/21,8776,,150.289,Alive,Visual,580842,4923811,n/a,,0,100,100,NA
+AE,2/8/21,n/a,,149.475,Alive,Antenna,580702,4923937,NA,B,0,100,100,7
+AE,2/8/21,8793,,150.909,Dead,Visual,580873,4923855,n/a,W,n/a,100,99,NA
+AE,2/8/21,8783,,152.478,Alive,Antenna,,,,,,,,NA
+AE,2/8/21,8786,,150.584,Alive,Antenna,,,,W,,,,NA
+AE,2/8/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+AE,2/8/21,8012,,151.603,Alive,Antenna,,,,,,,,NA
+AE,2/8/21,8010,,151.439,No Signal,,,,,W,,,,NA
+AE,2/8/21,8030,,150.855,Alive,Antenna,,,,,,,,NA
+AE,2/9/21,8030,5,150.855,Alive,Visual,580114,4927099,NA,B,0,100,99,6
+AE,2/9/21,8010,4,151.439,Alive,Visual,580552,4926769,4,W,100,100,100,0.5
+AE,2/9/21,8783,1,152.478,Alive,Visual,581370,4923606,NA,B,0,100,100,5
+AE,2/9/21,8786,1,150.584,Alive,Visual,581575,4923829,3,W,100,100,100,5
+AE,2/9/21,8012,7,151.603,Alive,Visual,581311,4924118,n/a,,0,100,100,NA
+AE,2/9/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+AE,2/11/21,8782,1,150.119,Alive,Visual,581610,4923874,2,W,100,100,100,3
+AE,2/11/21,8755,,151.754,Dead,Antenna,581655,4920522,n/a,W,n/a,100,100,NA
+AE,2/11/21,8790,1,151.223,Alive,Visual,582166,4920522,3,W,100,100,97,1
+AE,2/17/21,8010,,151.439,No Signal,Antenna,,,,W,,,,NA
+AE,2/17/21,8030,,150.855,Alive,Antenna,,,,,,,,NA
+AE,2/17/21,n/a,,149.475,Alive,Antenna,,,,,,,,NA
+AE,2/17/21,8776,,150.289,Alive,Antenna,,,,,,,,NA
+AE,2/17/21,8012,,151.603,Alive,Antenna,,,,,,,,NA
+AE,2/17/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+AE,2/17/21,8786,,150.584,Alive,Antenna,,,,W,,,,NA
+AE,2/17/21,8783,,152.478,Alive,Antenna,,,,,,,,NA
+AE,2/17/21,8790,,151.223,Alive,Antenna,,,,W,,,,NA
+AE,2/22/21,8783,,152.478,Alive,Antenna,,,,,,,,NA
+AE,2/22/21,8786,,150.584,Alive,Antenna,581478,4923877,4,W,100,100,100,NA
+AE,2/22/21,8782,2,150.119,Alive,Visual,581629,4923835,2,W,100,100,100,1
+AE,2/22/21,8012,,151.603,Alive,Antenna,,,,,,,,NA
+AE,2/22/21,8776,,150.289,Alive,Antenna,580828,4923722,4,B,0,100,100,NA
+AE,2/22/21,1,,149.475,Alive,Antenna,580702,4923937,4,W,100,100,100,NA
+AE,2/22/21,8790,,151.223,Alive,Antenna,,,,W,,,,NA
+AE,2/22/21,8010,,151.439,No Signal,Antenna,,,,W,,,,NA
+AE,2/22/21,8030,,150.855,No Signal,Antenna,,,,,,,,NA
+AE,2/23/21,8783,,152.478,Alive,Visual,,,,,,,,NA
+AE,2/24/21,8030,,150.855,Alive,Antenna,580021,4927181,4,B,0,100,100,NA
+AE,2/24/21,8010,5,151.439,Alive,Visual,580638,4927181,4,W,100,100,100,2
+AE,3/1/21,8030,,150.855,Alive,Antenna,,,,,,,,NA
+AE,3/1/21,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+AE,3/1/21,8783,2,152.478,Alive,Visual,581353,4923587,3,B,0,100,100,2
+AE,3/1/21,8786,,150.584,Alive,Antenna,,,,W,,,,NA
+AE,3/1/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+AE,3/1/21,8012,8,151.603,Dead,Antenna,581345,4924252,n/a,,n/a,n/a,n/a,NA
+AE,3/1/21,8776,,150.289,Alive,Antenna,,,,,,,,NA
+AE,3/1/21,n/a,,149.475,Alive,Antenna,,,,,,,,NA
+AE,3/1/21,8790,2,151.223,Alive,Visual,582061,4920536,1,W,99,100,100,1
+AE,3/3/21,8036,,149.185,Alive,Antenna,,,,,,,,NA
+AE,3/3/21,8051,,152.088,No Signal,Antenna,,,,,,,,NA
+AE,3/8/21,8030,,150.855,Alive,Antenna,,,,,,,,NA
+AE,3/8/21,8010,,151.439,No Signal,,,,,W,,,,NA
+AE,3/8/21,8776,,150.289,Alive,Visual,580785,4923835,NA,B,0,100,100,NA
+AE,3/8/21,n/a,,149.475,Dead,Antenna,580675,4923921,n/a,,n/a,100,100,NA
+AE,3/8/21,8783,,152.478,Alive,Antenna,581279,4923529,n/a,,n/a,100,100,NA
+AE,3/8/21,8786,2,150.584,Alive,Visual,581504,4923915,1,W,100,100,100,4.5
+AE,3/8/21,8782,3,150.119,Alive,Visual,581615,4923857,NA,W,100,100,100,3
+AE,3/8/21,8790,,151.223,Alive,Antenna,,,,W,,,,NA
+AE,3/11/21,8030,,150.855,Alive,Antenna,580021,4927181,4,B,0,100,100,NA
+AE,3/11/21,8010,6,151.439,Alive,Visual,580392,4926761,1,W,100,100,100,4
+AE,3/15/21,8790,,151.223,Alive,Antenna,,,,W,,,,NA
+AE,3/15/21,8030,,150.855,Alive,Antenna,,,,,,,,NA
+AE,3/15/21,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+AE,3/15/21,8786,,150.584,Dead,Visual,581524,4923967,n/a,W,n/a,100,100,NA
+AE,3/15/21,8073/8783,,151.303,Dead,Visual,581456,4923829,n/a,,n/a,100,100,NA
+AE,3/15/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+AE,3/15/21,8053,,151.184,Alive,Antenna,,,,,,,,NA
+AE,3/15/21,8776,,150.289,Alive,Antenna,,,,,,,,NA
+AE,3/24/21,8759,,151.184,Dead,Antenna,,,n/a,,n/a,n/a,100,NA
+AE,3/29/21,8790,,151.223,Dead,Visual,n/a,4920518,n/a,W,n/a,n/a,n/a,NA
+AE,3/29/21,8010,,151.439,No Signal,Antenna,,,,W,,,,NA
+AE,3/29/21,8030,,150.855,No Signal,Antenna,,,,,,,,NA
+AE,3/29/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+AE,3/29/21,8061,,151.053,Alive,Antenna,,,,,,,,NA
+AE,3/29/21,8057,,151.303,Alive,Antenna,,,,W,,,,NA
+AE,3/29/21,8799,,151.103,Alive,Antenna,,,,,,,,NA
+AE,3/29/21,8049,,151.143,Alive,Antenna,,,,,,,,NA
+AE,3/29/21,8777,,151.384,Alive,Antenna,,,,,,,,NA
+AE,3/29/21,8776,,150.289,Alive,Antenna,,,,,,,,NA
+AE,3/29/21,8026,,151.343,Alive,Antenna,,,,,,,,NA
+AE,3/29/21,8044,,151.234,No Signal,Antenna,,,,,,,,NA
+AE,3/29/21,8000,,151.283,Alive,Antenna,,,,W,,,,NA
+AE,3/29/21,8798,,151.014,Alive,Antenna,,,,,,,,NA
+AE,3/31/21,8030,,150.855,Alive,Visual,580069,4927104,n/a,,0,100,100,NA
+AE,3/31/21,8010,7,151.439,Alive,Visual,580473,4926826,3,W,96,100,100,1
+AE,4/2/21,8036,,149.185,Alive,Antenna,,,,,,,,NA
+AE,4/2/21,8051,,152.088,No Signal,,,,,,,,,NA
+AE,4/2/21,8040,,151.523,No Signal,,,,,,,,,NA
+AE,4/5/21,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+AE,4/5/21,8030,,150.855,Alive,Antenna,,,,,,,,NA
+AE,4/5/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+AE,4/5/21,8061,,151.053,Alive,Antenna,,,,,,,,NA
+AE,4/5/21,8057,,151.303,Alive,Antenna,,,,W,,,,NA
+AE,4/5/21,8799,,151.103,No Signal,Antenna,,,,,,,,NA
+AE,4/5/21,8049,,151.143,Alive,Antenna,,,,,,,,NA
+AE,4/5/21,8777,,151.384,Alive,Antenna,,,,,,,,NA
+AE,4/5/21,8776,,150.596,No Signal,Antenna,,,,,,,,NA
+AE,4/5/21,8026,,151.343,Alive,Antenna,,,,,,,,NA
+AE,4/5/21,8044,,151.234,No Signal,Antenna,,,,,,,,NA
+AE,4/5/21,8000,,151.283,Alive,Antenna,,,,W,,,,NA
+AE,4/5/21,8798,,151.014,Alive,Antenna,,,,,,,,NA
+AE,4/13/21,8030,,150.855,No Signal,,,,,,,,,NA
+AE,4/13/21,8010,,151.439,No Signal,,,,,W,,,,NA
+AE,4/13/21,8023,,151.713,Alive,Antenna,,,,,,,,NA
+AE,4/13/21,8758,,151.514,Alive,Antenna,,,,W,,,,NA
+AE,4/13/21,8024,,151.283,Dead,Visual,581776,4924974,n/a,,n/a,100,100,NA
+AE,4/13/21,8776,,150.656,No Signal,Antenna,,,,,,,,NA
+AE,4/13/21,8000,,150.696,Alive,Antenna,,,,W,,,,NA
+AE,4/13/21,8777,,151.384,Alive,Antenna,,,,,,,,NA
+AE,4/13/21,8026,,151.343,Alive,Antenna,,,,,,,,NA
+AE,4/13/21,8044,,151.234,No Signal,Antenna,,,,,,,,NA
+AE,4/13/21,8798,,151.014,Alive,Antenna,,,,,,,,NA
+AE,4/13/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+AE,4/13/21,8061,,151.053,Alive,Antenna,,,,,,,,NA
+AE,4/13/21,8057,,151.303,Alive,Antenna,,,,W,,,,NA
+AE,4/13/21,8799,,151.103,No Signal,Antenna,,,,,,,,NA
+AE,4/13/21,8049,,151.143,Alive,Antenna,,,,,,,,NA
+AE,4/13/21,8032,,150.676,Alive,Antenna,,,,,,,,NA
+AE,4/13/21,8018,,150.636,Alive,Antenna,,,,W,,,,NA
+AE,4/15/21,8030,6,150.855,Alive,Visual,580092,4927093,1,B,0,100,97,5
+AE,4/15/21,8010,,151.439,No Signal,,,,,W,,,,NA
+AE,4/15/21,8023,1,151.713,Alive,Visual,581474,4924499,4,B,0,30,85,2.5
+AE,4/15/21,8758,1,151.514,Alive,Visual,581531,4924840,3,W,98,100,100,5
+AE,4/15/21,8782,4,150.119,Alive,Visual,581547,4923890,3,W,94,100,94,2
+AE,4/15/21,8018,,150.636,No Signal,,,,,W,,,,NA
+AE,4/15/21,8057,1,151.303,Alive,Visual,581536,4923837,2,W,97,99,99,1
+LB,4/16/21,8798,,151.014,Alive,Antenna, ,,,,,,,NA
+LB,4/16/21,8044,,151.234,No Signal,,,,,,,,,NA
+LB,4/16/21,8026,,151.343,Alive,Antenna,,,,,,,,NA
+AE,4/16/21,8000,,150.696,Alive,Antenna,580703,4923706,4,W,NA,NA,85,NA
+AE,4/16/21,8776,,150.656,No Signal,,,,,,,,,NA
+AE,4/16/21,8777,,151.384,Alive,Antenna,581009,4923818,N/A,,n/a,n/a,78,NA
+LB,4/17/21,8061,1,151.053,Alive,Antenna,581377,4923661,4,B,0,100,100,4
+LB,4/17/21,8799,1,151.103,Alive,Antenna,581664,4924043,3,B,0,0,75,2
+LB,4/17/21,8049,1,151.143,Alive,Antenna,581624,4923780,4,B,0,0,100,10
+LB,4/17/21,8032,1,150.676,Alive,Visual,,,1,B,0,NA,100,3
+"AE, LB",4/17/21,8036,6,149.185,Alive,Visual,579734,4906238,4,B,0,0,10,2.5
+"AE, LB",4/18/21,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+"AE, LB",4/18/21,8026,1,151.343,Alive,Visual,581107,4923298,NA,B,0,100,99,7
+AE,4/26/21,8040,,150.656,No Signal,,,,,,,,,NA
+AE,4/26/21,8036,,149.185,Alive,,,,,,,,,NA
+AE,4/26/21,8782,5,150.119,Alive,Visual,581648,4923819,1,W,98,100,100,8
+AE,4/26/21,8061,,151.053,Alive,,,,,,,,,NA
+AE,4/26/21,8057,,150.596,No Signal,,,,,W,,,,NA
+AE,4/26/21,8799,,151.103,Alive,,,,,,,,,NA
+AE,4/26/21,8049,,151.143,Alive,,,,,,,,,NA
+AE,4/26/21,8032,,150.676,No Signal,,,,,,,,,NA
+AE,4/26/21,8018,,150.636,Alive,,,,,W,,,,NA
+AE,4/26/21,4707,,150.536,Alive,,,,,W,,,,NA
+AE,4/26/21,8776,,150.616,Alive,,,,,,,,,NA
+AE,4/26/21,8000,,150.696,Alive,,,,,W,,,,NA
+AE,4/26/21,8777,,151.384,Alive,,,,,,,,,NA
+AE,4/26/21,8026,,151.343,Alive,,,,,,,,,NA
+AE,4/26/21,8044,,150.736,No Signal,,,,,,,,,NA
+AE,4/26/21,8798,,151.014,Alive,,,,,,,,,NA
+AE,4/26/21,8023,,151.713,Alive,,,,,,,,,NA
+AE,4/26/21,8758,,151.514,Alive,,,,,W,,,,NA
+AE,4/26/21,8062,,151.453,Alive,,,,,W,,,,NA
+AE,4/26/21,8785,,151.283,Alive,,,,,W,,,,NA
+AE,4/26/21,675,,151.623,Alive,,,,,W,,,,NA
+AE,4/26/21,8014,,151.894,Alive,,,,,,,,,NA
+AE,4/26/21,8030,,150.855,Alive,,,,,,,,,NA
+AE,4/26/21,8010,,151.439,Alive,,,,,W,,,,NA
+LB,4/21/21,8062,,151.453,Alive,Antenna,,,,W,,,,NA
+LB,4/21/21,8785,1,151.283,Alive,Visual,581351,4924509,4,W,98,0,75,0.5
+AE,4/21/21,675,1,151.623,Alive,Visual,581055,4924616,2,W,94,15,83,0.5
+AE,4/21/21,8014,,151.894,Alive,Antenna,,,,,,,,NA
+AE,4/27/21,8062,1,151.453,Alive,Visual,581741,4924624,1,W,94,15,85,6
+AE,4/27/21,8758,2,151.514,Alive,Visual,582037,4925400,3,W,91,0,6,4
+AE,4/27/21,8785,2,151.283,Alive,Visual,581306,4924562,2,W,95,17,75,2
+AE,4/27/21,675,2,151.623,Alive,Visual,581118,4924555,4,W,90,53,75,0.5
+AE,4/28/21,8018,,150.636,No Signal,,,,,W,,,,NA
+AE,4/28/21,8032,,150.676,No Signal,,,,,,,,,NA
+AE,4/28/21,8057,,150.596,No Signal,,,,,W,,,,NA
+AE,4/28/21,4707,1,150.536,Alive,Visual,581806,4923759,1,W,95,28,85,2
+AE,4/28/21,8000,,150.696,Alive,Visual,580642,4923767,1,W,95,100,90,NA
+AE,4/28/21,8798,1,151.014,Alive,Antenna,581095,4924016,n/a,,n/a,n/a,80,NA
+AE,4/28/21,8776,,150.616,Alive,Antenna,,,,,,,,NA
+AE,5/3/21,8040,,150.656,No Signal,,,,,,,,,NA
+AE,5/3/21,8787,,149.523,Alive,,,,,,,,,NA
+HW,5/3/21,8036,,149.185,Alive,,,,,,,,,NA
+AE,5/3/21,8782,,150.119,Alive,,,,,W,,,,NA
+AE,5/3/21,8061,,151.053,Alive,,,,,,,,,NA
+AE,5/3/21,8057,,150.596,No Signal,,,,,W,,,,NA
+AE,5/3/21,8799,,151.103,Alive,,,,,,,,,NA
+AE,5/3/21,8049,,151.143,Alive,,,,,,,,,NA
+AE,5/3/21,8032,,150.676,No Signal,,,,,,,,,NA
+AE,5/3/21,8018,,150.636,No Signal,,,,,W,,,,NA
+AE,5/3/21,4707,,150.536,No Signal,,,,,W,,,,NA
+AE,5/3/21,8776,,150.616,Alive,,,,,,,,,NA
+AE,5/3/21,8000,,150.696,No Signal,,,,,W,,,,NA
+AE,5/3/21,8777,,151.384,Alive,,,,,,,,,NA
+AE,5/3/21,8026,,151.343,Alive,,,,,,,,,NA
+AE,5/3/21,8044,,150.736,No Signal,,,,,,,,,NA
+AE,5/3/21,8798,,151.014,Alive,,,,,,,,,NA
+AE,5/3/21,8023,,151.713,Alive,,,,,,,,,NA
+AE,5/3/21,8758,,151.514,Alive,,,,,W,,,,NA
+AE,5/3/21,8062,,151.453,Alive,,,,,W,,,,NA
+AE,5/3/21,8785,,151.283,Alive,,,,,W,,,,NA
+AE,5/3/21,675,,151.623,Alive,,,,,W,,,,NA
+AE,5/3/21,8014,,151.894,Alive,,,,,,,,,NA
+AE,5/3/21,8030,,150.855,Alive,,,,,,,,,NA
+AE,5/3/21,8010,,151.439,Alive,,,,,W,,,,NA
+AE,5/4/21,8782,6,150.119,Alive,Visual,581527,4923846,3,W,96,0,85,5
+AE,5/4/21,4704,,150.536,No Signal,,,,,,,,,NA
+AE,5/4/21,8000,,150.696,No Signal,,,,,W,,,,NA
+AE,5/4/21,675,3,151.623,Alive,Visual,581166,4924552,4,W,75,0,30,0.1
+AE,5/4/21,8785,3,151.283,Alive,Visual,581365,4924586,2,W,80,0,70,1
+AE,5/4/21,8062,2,151.453,Alive,Visual,581623,4924651,1,W,95,18,62,5
+HW,5/10/21,8040,,150.656,No Signal,,,,,,,,,NA
+HW,5/10/21,8787,,149.523,Alive,,,,,,,,,NA
+HW,5/10/21,8036,,149.185,Alive,,,,,,,,,NA
+AE,5/10/21,8782,,150.119,Alive,,,,,W,,,,NA
+AE,5/10/21,8061,,151.053,Alive,,,,,,,,,NA
+AE,5/10/21,8799,,151.103,Dead,,,,,,,,,NA
+AE,5/10/21,8049,,151.143,Alive,,,,,,,,,NA
+AE,5/10/21,8032,,150.676,No Signal,,,,,,,,,NA
+AE,5/10/21,8018,,150.636,No Signal,,,,,W,,,,NA
+AE,5/10/21,4707,,150.776,No Signal,,,,,W,,,,NA
+AE,5/10/21,8746,,151.303,Alive,,,,,,,,,NA
+AE,5/10/21,8748,,150.856,Alive,,,,,W,,,,NA
+AE,5/10/21,8776,,150.616,Alive,,,,,,,,,NA
+AE,5/10/21,8000,,150.696,No Signal,,,,,W,,,,NA
+AE,5/10/21,8777,,151.384,Alive,,,,,,,,,NA
+AE,5/10/21,8026,,151.343,Alive,,,,,,,,,NA
+AE,5/10/21,8044,,150.736,No Signal,,,,,,,,,NA
+AE,5/10/21,8798,,151.014,Alive,,,,,,,,,NA
+AE,5/10/21,8023,,151.713,Alive,,,,,,,,,NA
+AE,5/10/21,8758,,151.514,Alive,,,,,W,,,,NA
+AE,5/10/21,8062,,151.453,Alive,,,,,W,,,,NA
+AE,5/10/21,8785,,151.283,Alive,,,,,W,,,,NA
+AE,5/10/21,675,,151.623,Alive,,,,,W,,,,NA
+AE,5/10/21,8014,,151.894,Dead,,,,,,,,,NA
+AE,5/10/21,8733,,151.234,Alive,,,,,,,,,NA
+AE,5/10/21,8005,,151.833,Alive,,,,,,,,,NA
+AE,5/10/21,8030,,150.855,No Signal,,,,,,,,,NA
+AE,5/10/21,8010,,151.439,Alive,,,,,W,,,,NA
+AE,5/11/21,8799,,,Dead,Visual,581648,4924004,n/a,,0,100,90,NA
+AE,5/11/21,8014,,151.894,Dead,Visual,581839,4925077,n/a,,n/a,0,0,NA
+AE,5/12/21,8010,8,151.439,Alive,Visual,580763,4926075,3,W,25,0,0,2
+AE,5/14/21,8018,,150.636,No Signal,,,,,W,,,,NA
+AE,5/14/21,4707,,150.776,No Signal,,,,,W,,,,NA
+AE,5/14/21,8748,1,150.856,Alive,Visual,582127,4923566,2,W,95,0,0,2.5
+AE,5/14/21,8782,,150.119,No Signal,,,,,W,,,,NA
+AE,5/14/21,8062,,151.453,Alive,Visual,,,n/a,W,85,n/a,n/a,NA
+AE,5/14/21,8785,,151.283,Alive,Visual,581326,4924851,n/a,W,20,n/a,2,NA
+AE,5/14/21,675,4,151.623,Alive,Visual,581097,4924571,3,W,20,0,20,1
+AE,5/14/21,8061,2,151.053,Alive,Antenna,581520,4923641,n/a,,n/a,n/a,n/a,NA
+"AE, CU",5/18/21,8040,,150.656,No Signal,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,,,,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,,,150.596,No Signal,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8787,,149.523,No Signal,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8036,,149.185,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+"AE, CU",5/18/21,8061,,151.053,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8049,,151.143,Dead,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8032,,150.676,No Signal,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8018,,150.636,No Signal,Antenna,,,,W,,,,NA
+"AE, CU",5/18/21,4707,,150.776,No Signal,Antenna,,,,W,,,,NA
+"AE, CU",5/18/21,8746,,151.303,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8748,,150.856,Alive,Antenna,,,,W,,,,NA
+"AE, CU",5/18/21,8776,,150.616,No Signal,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8000,,150.696,No Signal,Antenna,,,,W,,,,NA
+"AE, CU",5/18/21,8777,,151.384,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8026,,151.343,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8044,,150.736,No Signal,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8798,,151.014,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8023,,151.713,No Signal,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8758,,151.514,No Signal,Antenna,,,,W,,,,NA
+"AE, CU",5/18/21,8062,,151.453,Alive,Antenna,,,,W,,,,NA
+"AE, CU",5/18/21,8785,,151.283,Alive,Antenna,,,,W,,,,NA
+"AE, CU",5/18/21,675,,151.623,Alive,Antenna,,,,W,,,,NA
+"AE, CU",5/18/21,8733,,151.234,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8005,,151.833,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8030,,150.855,No Signal,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+"AE, CU",5/18/21,8743,,151.574,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/18/21,8734,,151.103,Alive,Antenna,,,,,,,,NA
+AE,5/20/21,8010,,151.439,Alive,Antenna,n/a,n/a,n/a,W,n/a,n/a,n/a,NA
+AE,5/20/21,675,5,151.623,Alive,Visual,581036,4924617,4,W,10,0,10,2
+AE,5/20/21,8785,,151.283,Alive,Antenna,,,,W,,,,NA
+AE,5/20/21,8062,,151.453,Alive,Visual,581613,4924904,n/a,W,15,0,1,NA
+"AE, CU",5/21/21,8785,4,151.283,Alive,Visual,581321,4924858,1,W,15,0,0,9
+"AE, CU",5/21/21,8782,,150.119,Alive,Visual,581539,4923875,n/a,W,20,n/a,n/a,NA
+"AE, CU",5/21/21,8018,,150.636,No Signal,Antenna,,,,W,,,,NA
+"AE, CU",5/21/21,4707,,150.776,No Signal,Antenna,,,,W,,,,NA
+"AE, CU",5/21/21,8748,,150.856,No Signal,Antenna,,,,W,,,,NA
+"AE, CU",5/21/21,8000,,150.696,No Signal,Antenna,,,,W,,,,NA
+"AE, CU, LP",5/24/21,8040,,150.656,No Signal,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8723,,151.664,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,,,150.596,No Signal,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8787,,149.523,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8036,,149.185,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8782,,150.119,Alive,Antenna,,,,W,,,,NA
+"AE, CU, LP",5/24/21,8061,,151.053,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8032,,150.676,No Signal,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8018,,150.636,No Signal,Antenna,,,,W,,,,NA
+"AE, CU, LP",5/24/21,4707,,151.143,Alive,Antenna,,,,W,,,,NA
+"AE, CU, LP",5/24/21,8746,,151.303,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8748,,150.856,No Signal,Antenna,,,,W,,,,NA
+"AE, CU, LP",5/24/21,8000,,151.223,Alive,Antenna,,,,W,,,,NA
+"AE, CU, LP",5/24/21,8777,,151.384,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8026,,151.343,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8044,,150.736,No Signal,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8798,,151.014,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8745,,151.894,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8023,,151.713,No Signal,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8758,,151.514,Alive,Antenna,,,,W,,,,NA
+"AE, CU, LP",5/24/21,8062,,151.453,Dead,Visual,581143,4924527,n/a,W,n/a,0,0,NA
+"AE, CU, LP",5/24/21,8785,,151.283,Alive,Antenna,,,,W,,,,NA
+"AE, CU, LP",5/24/21,675,,151.623,Alive,Antenna,,,,W,,,,NA
+"AE, CU, LP",5/24/21,8733,,151.234,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8005,,151.833,Alive,Antenna,,,,,,,,NA
+"AE, CU, LP",5/24/21,8030,,150.855,No Signal,,,,,,,,,NA
+"AE, CU, LP",5/24/21,8010,9,151.439,Alive,Visual,580492,4926815,3,W,17,0,0,1
+"AE, CU, LP",5/24/21,8743,,151.574,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/28/21,8782,7,150.119,Alive,Visual,581527,4923866,3,W,10,0,1,3.5
+"AE, CU",5/28/21,4707,,151.143,No Signal,,,,,W,,,,NA
+"AE, CU",5/28/21,8748,,150.856,No Signal,,,,,W,,,,NA
+"AE, CU",5/28/21,8018,,150.636,No Signal,,,,,W,,,,NA
+"AE, CU, JE",5/29/21,,,151/764,Dead,Visual,,,,,,,,NA
+"AE, CU",5/30/21,8040,,150.656,No Signal,,,,,,,,,NA
+"AE, CU",5/30/21,8723,,151.664,Alive,,,,,,,,,NA
+"AE, CU",5/30/21,,,150.596,No Signal,,,,,,,,,NA
+"AE, CU",5/30/21,8787,,149.523,No Signal,,,,,,,,,NA
+"AE, CU",5/30/21,8036,,149.185,Alive,,,,,,,,,NA
+"AE, CU",5/31/21,8782,,150.119,Alive,,,,,W,,,,NA
+"AE, CU",5/31/21,8061,,151.053,Dead,Visual,581302,4923736,n/a,,n/a,0,0,NA
+"AE, CU",5/31/21,8032,,150.676,No Signal,,,,,,,,,NA
+"AE, CU",5/31/21,8018,,150.636,No Signal,,,,,W,,,,NA
+"AE, CU",5/31/21,4707,,151.143,No Signal,,,,,W,,,,NA
+"AE, CU",5/31/21,8746,,151.303,No Signal,,,,,,,,,NA
+"AE, CU",5/31/21,8748,,150.856,No Signal,,,,,W,,,,NA
+"AE, CU",5/31/21,8001,,150.364,Dead,Visual,581963,4924199,n/a,,n/a,0,1,NA
+"AE, CU",5/31/21,8776,,151.223,Alive,,,,,,,,,NA
+"AE, CU",5/31/21,8000,,150.913,Alive,,,,,W,,,,NA
+"AE, CU",5/31/21,8777,,151.384,Alive,,,,,,,,,NA
+"AE, CU",5/31/21,8026,,151.343,Alive,,,,,,,,,NA
+"AE, CU",5/31/21,8044,,150.736,No Signal,,,,,,,,,NA
+"AE, CU",5/31/21,8798,,151.014,Alive,,,,,,,,,NA
+"AE, CU",5/31/21,8745,,150.289,Alive,Visual,580610,4923736,1,B,0,0,0,NA
+"AE, CU",5/31/21,8023,,151.713,No Signal,Antenna,,,,,,,,NA
+"AE, CU",5/31/21,8785,,151.283,Dead,Visual,581384,4924863,n/a,W,n/a,0,0,NA
+"AE, CU",5/31/21,675,,151.623,Alive,Visual,581009,4924613,n/a,W,5,0,0,NA
+"AE, CU",5/31/21,8733,,151.234,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/31/21,8005,,151.833,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/31/21,8030,,150.855,Alive,Antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+"AE, CU",5/31/21,8010,,151.439,Alive,Antenna,n/a,n/a,n/a,W,n/a,n/a,n/a,NA
+"AE, CU",5/30/21,8743,,151.574,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/30/21,8734,,PP,Alive,Antenna,,,,,,,,NA
+"AE, CU",5/30/21,8744,,151.894,Alive,Antenna,,,,W,,,,NA
+LP,6/9/21,8040,,150.656,no Signal,,,,,,,,,NA
+LP,6/9/21,8723,,151.664,no Signal,,,,,,,,,NA
+LP,6/9/21,,,150.596,no Signal,,,,,,,,,NA
+LP,6/9/21,8787,,149.523,Alive,Antenna,,,,,,,,NA
+LP,6/9/21,8036,,149.185,Alive,Antenna,,,,,,,,NA
+LP,6/9/21,8782,,150.119,Alive,Visual,,,,W,,,,NA
+LP,6/9/21,8061,,151.053,No Signal,,,,,,,,,NA
+LP,6/9/21,8032,,150.676,No Signal,,,,,,,,,NA
+LP,6/9/21,8018,,150.636,No Signal,,,,,W,,,,NA
+LP,6/9/21,4707,,151.143,Dead,Visual,582322,4923637,,W,,,,NA
+LP,6/9/21,8746,,151.303,Dead,Visual,581330,4923995,,,,,,NA
+LP,6/9/21,8748,,150.856,No Signal,,,,,W,,,,NA
+LP,6/9/21,8001,,150.364,No Signal,,,,,,,,,NA
+LP,6/9/21,8776,,151.223,Dead,Visual,,,,,,,,NA
+LP,6/9/21,8000,,150.913,No Signal,,,,,W,,,,NA
+LP,6/9/21,8777,,151.384,Dead,Visual,581058,4923875,,,,,,NA
+LP,6/9/21,8026,,151.343,Alive,antenna,,,,,,,,NA
+LP,6/9/21,8044,,150.736,No Signal,,,,,,,,,NA
+LP,6/9/21,8798,,151.014,No Signal,,,,,,,,,NA
+LP,6/9/21,8745,,150.289,Alive,antenna,,,,,,,,NA
+LP,6/9/21,8707,,150.973,Alive,antenna,,,,,,,,NA
+LP,6/9/21,8023,,151.713,Dead,Antenna,,,,,,,,NA
+LP,6/9/21,8758,,151.514,Alive,antenna,,,,W,,,,NA
+LP,6/9/21,675,,151.623,Alive,Visual,581108,4924630,2,W,2,0,0,NA
+LP,6/9/21,8733,,151.234,Alive,Antenna,,,,,,,,NA
+LP,6/9/21,8005,,151.833,Alive,antenna,,,,,,,,NA
+LP,6/9/21,8030,,150.855,Alive,antenna,,,,,,,,NA
+LP,6/9/21,8010,,151.439,Alive,Visual,580763,4926075,3,W,2,0,0,NA
+LP,6/9/21,8743,,151.574,Alive,antenna,,,,,,,,NA
+LP,6/9/21,8734,,151.103,Alive,antenna,,,,,,,,NA
+LP,6/9/21,8744,,151.894,Alive,Visual,583070,4919196,3,W,1,0,0,NA
+LP,6/15/21,8010,,151.439,Alive,,,,,W,,,,NA
+LP,6/15/21,8743,,151.574,No Signal,,,,,,,,,NA
+LP,6/15/21,8782,,150.119,Alive,,,,,W,,,,NA
+LP,6/15/21,4707,,151.143,NA,,,,,W,,,,NA
+LP,6/15/21,8748,,150.856,No Signal,,,,,W,,,,NA
+LP,6/15/21,8018,,150.636,No Signal,,,,,W,,,,NA
+LP,6/15/21,,,151/764,,,,,,,,,,NA
+LP,6/15/21,8040,,150.656,No Signal,,,,,,,,,NA
+LP,6/15/21,8723,,151.664,No Signal,,,,,,,,,NA
+LP,6/15/21,,,150.596,No Signal,,,,,,,,,NA
+LP,6/15/21,8787,,149.523,No Signal,,,,,,,,,NA
+LP,6/15/21,8036,,149.185,Alive,,,,,,,,,NA
+LP,6/15/21,8051,,152.088,No Signal,,,,,,,,,NA
+LP,6/15/21,8782,,150.119,Alive,,,,,W,,,,NA
+LP,6/15/21,8061,,151.053,NA,,,,,,,,,NA
+LP,6/15/21,8032,,150.676,No Signal,,,,,,,,,NA
+LP,6/15/21,8018,,150.636,No Signal,,,,,W,,,,NA
+LP,6/15/21,4707,,151.143,,,,,,W,,,,NA
+LP,6/15/21,8746,,151.303,,,,,,,,,,NA
+LP,6/15/21,8748,,150.856,No Signal,,,,,W,,,,NA
+LP,6/15/21,8001,,150.364,No Signal,,,,,,,,,NA
+LP,6/15/21,,,,NA,,,,,,,,,NA
+LP,6/15/21,8000,,150.913,No Signal,,,,,W,,,,NA
+LP,6/15/21,8739,,151.053,Dead,Visual,581766,4906585,n/a,,0,0,0,NA
+LP,6/15/21,8026,,151.343,Alive,,,,,,,,,NA
+LP,6/15/21,8044,,150.736,No Signal,,,,,,,,,NA
+LP,6/15/21,8798,,151.014,No Signal,,,,,,,,,NA
+LP,6/15/21,8745,,150.289,Alive,,,,,,,,,NA
+LP,6/15/21,8023,,151.713,NA,,,,,,,,,NA
+LP,6/15/21,8062,,151.453,NA,,,,,,,,,NA
+LP,6/15/21,675,,151.623,Alive,,,,,W,,,,NA
+LP,6/15/21,8733,,151.234,Alive,,,,,,,,,NA
+LP,6/15/21,8005,,151.833,Alive,,,,,,,,,NA
+LP,6/15/21,8030,,150.855,No Signal,,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8000,,150.913,No Signal,Antenna,,,,W,,,,NA
+"LP,AE,LC,GE",6/21/21,8026,,151.343,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8044,,151.234,No Signal,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8798,,151.014,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8745,,150.289,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8707,,150.973,No Signal,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8782,,150.119,No Signal,Antenna,,,,W,,,,NA
+"LP,AE,LC,GE",6/21/21,8001,,150.364,No Signal,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8748,,150.856,No Signal,Antenna,,,,W,,,,NA
+"LP,AE,LC,GE",6/21/21,8032,,150.676,No Signal,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8018,,150.636,No Signal,Antenna,,,,W,,,,NA
+"LP,AE,LC,GE",6/21/21,8758,,151.514,No Signal,Antenna,,,,W,,,,NA
+"LP,AE,LC,GE",6/21/21,675,,151.623,Alive,Antenna,,,,W,,,,NA
+"LP,AE,LC,GE",6/21/21,8733,,151.234,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8005,,151.833,No Signal,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8744,,151.894,Alive,Antenna,,,,W,,,,NA
+"LP,AE,LC,GE",6/21/21,8734,,151.103,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8743,,151.574,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8771,,151.303,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8736,,151.184,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8787,,149.523,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8036,,149.185,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8051,,152.478,Dead,Visual,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+"LP,AE,LC,GE",6/21/21,8747,,151.384,Alive,Antenna,,,,W,,,,NA
+"LP,AE,LC,GE",6/21/21,8723,,151.664,No Signal,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8040,,150.656,No Signal,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+"LP,AE,LC,GE",6/21/21,8030,,150.855,Alive,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/21/21,,,150.596,No Signal,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/22/21,8744,1,151.894,Alive,Visual,583257,4918737,1,W,0,0,0,3
+"LP,AE,LC,GE",6/22/21,8747,,151.384,Alive,Visual,581533,4922559,,W,0,0,0,NA
+"LP,AE,LC,GE",6/22/21,8782,,150.119,No Signal,Antenna,,,,W,,,,NA
+"LP,AE,LC,GE",6/22/21,8748,,150.856,No Signal,,,,,W,,,,NA
+"LP,AE,LC,GE",6/22/21,8018,,150.636,No Signal,,,,,W,,,,NA
+"LP,AE,LC,GE",6/22/21,8000,,150.913,No Signal,,,,,W,,,,NA
+"LP,AE,LC,GE",6/22/21,8707,,150.973,Alive,,,,,,,,,NA
+"LP,AE,LC,GE",6/22/21,8023,,151.713,No Signal,Antenna,,,,,,,,NA
+"LP,AE,LC,GE",6/22/21,8758,,151.514,Alive,,,,,W,,,,NA
+"LP,AE,LC,GE",6/22/21,675,6,151.623,Alive,Visual,581077,4924615,3,W,0,0,0,10
+"LP,AE,LC,GE",6/22/21,8010,10,151.439,Alive,Visual,580476,4926916,3,W,0,0,0,3
+"LP,AE,LC,GE",6/22/21,8026,,151.343,Alive,,,,,,,,,NA
+"LP,AE,LC,GE",6/22/21,8798,,151.014,No Signal,,,,,,,,,NA
+"LP,AE,LC,GE",6/23/21,8736,,151.184,Alive,,,,,,,,,NA
+"LP,AE,LC,GE",6/23/21,8771,1,151.303,Alive,Visual,582955,4919651,4,B,0,0,0,3
+"LP,AE,LC,GE",6/23/21,8758,,151.514,Alive,,,,,W,,,,NA
+"LP,AE,LC,GE",6/23/21,8733,,151.234,No Signal,,,,,,,,,NA
+"LP,AE,LC,GE",6/23/21,8005,,151.833,No Signal,,,,,,,,,NA
+"LP,AE,LC,GE",6/23/21,8743,1,151.574,Alive,Visual,583087,4919185,4,B,0,0,0,5.5
+"LP, GE",6/24/21,8026,2,151.343,Alive,Visual,581305,4923377,3,B,0,0,0,5
+"LP, GE",6/24/21,8745,1,150.289,Alive,Visual,580652,4923672,1,B,0,0,0,NA
+"LP, GE",6/24/21,8036,,149.185,Alive,antenna,,,,,,,,NA
+"LP, GE",6/24/21,8782,,150.119,No Signal,antenna,,,,W,,,,NA
+"LP, GE",6/24/21,8798,,151.014,No Signal,antenna,,,,,,,,NA
+"LP, GE",6/24/21,8030,,150.855,No Signal,antenna,,,,,,,,NA
+"AE, LP",6/28/21,8040,,150.656,No Signal,antenna,,,,,,,,NA
+"AE, LP",6/28/21,8723,,151.664,No Signal,antenna,,,,,,,,NA
+"AE, LP",6/28/21,,,150.596,No Signal,antenna,,,,,,,,NA
+"AE, LP",6/28/21,8750,,151.143,Alive,antenna,,,,W,,,,NA
+"AE, LP",6/28/21,8719,,151.283,Alive,antenna,,,,,,,,NA
+"AE, LP",6/28/21,8787,,149.523,Dead,Visual,578917,4901993,n/a,,n/a,0,0,NA
+"AE, LP",6/28/21,8036,,149.185,Alive,Antenna,,,,,,,,NA
+"AE, LP",6/28/21,8782,,150.119,No Signal,Antenna,,,,W,,,,NA
+"LC, GE",6/28/21,8000,,150.913,No Signal,Antenna,,,,W,,,,NA
+"LC, GE",6/28/21,8026,,151.343,Alive,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8044,,150.736,No Signal,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8798,,151.014,No Signal,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8745,,150.289,Alive,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8707,,150.973,No Signal,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8758,,151.514,Dead,Antenna,,,,W,,,,NA
+"LC, GE",6/28/21,8785,,151.283,No Signal,Antenna,,,,W,,,,NA
+"LC, GE",6/28/21,675,,151.623,Alive,Antenna,,,,W,,,,NA
+"LC, GE",6/28/21,8733,,151.234,Alive,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8005,,151.833,Alive,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8714,,150.909,N/A,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8775,,151.033,No Signal,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8757,,150.993,No Signal,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8030,,150.855,No Signal,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8010,,151.439,Alive,Antenna,,,,W,,,,NA
+"LC, GE",6/28/21,8743,,151.574,Alive,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8734,,151.103,No Signal,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8744,,151.894,Dead,Antenna,582982,4919038,,W,,,,NA
+"LC, GE",6/28/21,8771,,151.303,Alive,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8736,,151.184,Alive,Antenna,,,,,,,,NA
+"LC, GE",6/28/21,8747,,151.384,Alive,Antenna,,,,W,,,,NA
+"LC, GE",6/29/21,8758,,151.514,Dead,Antenna,581718,4924780,,W,,,,NA
+"LC, GE",6/29/21,8744,,151.894,Dead,Antenna,582982,4919038,,W,,,,NA
+"LC, GE, AE, LP",7/5/21,8040,,150.656,No signal,Antenna,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8723,,151.664,No signal,Antenna,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,,,150.596,No signal,Antenna,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8750,,151.143,Alive,Antenna,,,,W,,,,NA
+"LC, GE, AE, LP",7/5/21,8719,,151.283,Alive,Antenna,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8036,,149.185,Dead,Antenna,579756,4906197,n/a,,n/a,0,0,NA
+"LC, GE, AE, LP",7/5/21,8782,,150.119,No Signal,Antenna,,,,W,,,,NA
+"LC, GE, AE, LP",7/5/21,8717,,151.754,Alive,Antenna,,,,UNK,,,,NA
+"LC, GE, AE, LP",7/5/21,8000,,150.913,No Signal,Antenna,,,,W,,,,NA
+"LC, GE, AE, LP",7/5/21,8026,,151.343,Alive,Antenna,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8044,,150.736,No Signal,Antenna,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8798,,151.014,No Signal,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8745,,150.289,Dead,Antenna,580692,4923470,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8707,,150.973,No Signal,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8785,,151.283,No Signal,,,,,W,,,,NA
+"LC, GE, AE, LP",7/5/21,675,,151.623,Alive,,,,,W,,,,NA
+"LC, GE, AE, LP",7/5/21,8733,,151.234,No Signal,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8005,,151.833,Alive,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8775,,151.033,No Signal,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8757,,150.993,No Signal,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8030,,150.855,Dead,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8010,,151.439,Alive,,,,,W,,,,NA
+"LC, GE, AE, LP",7/5/21,8743,,151.574,Alive,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8734,,151.103,No Signal,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8771,,151.303,Alive,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8736,,151.184,Alive,,,,,,,,,NA
+"LC, GE, AE, LP",7/5/21,8747,,151.384,No Signal,,,,,W,,,,NA
+"AE, CC, LP, GE",7/6/21,8026,3,151.343,Alive,Visual,581191,4923633,n/a,,0,0,0,NA
+"LP,LC",7/8/21,8030,,150.855,Dead,Visual,579712,4926891,n/a,,n/a,n/a,n/a,NA
+"GE, CC",7/8/21,8010,11,151.439,Alive,,580509,4926887,NA,W,0,0,0,1
+"AE,LC,GE,CC",7/9/21,8747,,151.384,No Signal,,,,,W,,,,NA
+"AE,LC,GE,CC",7/9/21,8734,1,151.103,Alive,,4919131,583491,4,B,0,0,0,4
+"AE,LC,GE,CC",7/9/21,8743,,151.574,Alive,,,,,,,,,NA
+"AE,LC,GE,CC",7/9/21,8771,2,151.303,Alive,,4919728,582905,3,B,0,0,0,4
+"AE,LC,GE,CC",7/9/21,8736,1,151.184,Alive,,4919674,582905,4,B,0,0,0,3
+,7/10/21,8733,1,151.234,Alive,Visual,4924821,581443,2,B,0,0,0,6
+,7/10/21,675,7,151.623,Alive,Visual,4924608,581145,2,W,0,0,0,10
+,7/10/21,8717,1,151.754,Alive,Visual,4924138,581985,1,UNK,0,0,0,NA
+"AE, CC",7/12/21,8723,,151.664,No Signal,,,,,,,,,NA
+"AE, CC, LP",7/12/21,8750,,151.143,Alive,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+"AE, CC",7/12/21,8719,,151.283,Alive,,,,,,,,,NA
+,7/12/21,8782,,150.119,No Signal,,,,,W,,,,NA
+,7/12/21,8032,,150.676,No Signal,,,,,,,,,NA
+,7/12/21,8018,,150.636,No Signal,,,,,W,,,,NA
+,7/12/21,8748,,150.856,No Signal,,,,,W,,,,NA
+,7/12/21,8717,,151.754,Alive,,,,,UNK,,,,NA
+,7/12/21,8000,,150.913,No Signal,,,,,W,,,,NA
+,7/12/21,8026,,151.343,Alive,,,,,,,,,NA
+,7/12/21,8044,,150.736,No Signal,,,,,,,,,NA
+,7/12/21,8798,,151.014,No Signal,,,,,,,,,NA
+,7/12/21,8745,,150.289,Alive,,,,,,,,,NA
+,7/12/21,8707,,150.973,No Signal,,,,,,,,,NA
+,7/12/21,8706,,151.053,No Signal,,,,,,,,,NA
+,7/12/21,675,,151.623,Alive,,,,,W,,,,NA
+,7/12/21,8733,,151.234,Alive,,,,,,,,,NA
+,7/12/21,8005,,151.833,Alive,,,,,,,,,NA
+,7/12/21,8775,,151.033,No Signal,,,,,,,,,NA
+,7/12/21,8757,,150.993,No Signal,,,,,,,,,NA
+,7/12/21,8010,,151.439,Alive,,,,,W,,,,NA
+,7/12/21,8743,,151.574,Dead,Visual,582952,4919545,n/a,,n/a,0,0,NA
+,7/12/21,8734,,151.103,Alive,,,,,,,,,NA
+,7/12/21,8771,,151.303,Dead,Visual,582874,4919569,n/a,,n/a,0,0,NA
+,7/12/21,8736,,151.184,Alive,,,,,,,,,NA
+,7/12/21,8747,,151.384,No Signal,,,,,W,,,,NA
+,7/19/21,8723,,151.664,No signal,,,,,,,,,NA
+,7/19/21,8720,,151.053,Alive,,,,,,,,,NA
+,7/19/21,8750,,151.143,Alive,,,,,W,,,,NA
+,7/19/21,8719,,151.283,Alive,,,,,,,,,NA
+,7/19/21,8782,,150.119,No signal,,,,,W,,,,NA
+,7/19/21,8717,,151.754,Alive,,,,,UNK,,,,NA
+,7/19/21,8026,,151.343,Alive,,,,,,,,,NA
+,7/19/21,8798,,151.014,No Signal,,,,,,,,,NA
+,7/19/21,8707,,150.973,No Signal,,,,,,,,,NA
+,7/19/21,8706,,151.053,No Signal,,,,,,,,,NA
+,7/19/21,8714,,150.776,No Signal,,,,,,,,,NA
+,7/19/21,8785,,151.283,No Signal,,,,,W,,,,NA
+,7/19/21,675,,151.623,Alive,,,,,W,,,,NA
+,7/19/21,8733,,151.234,Alive,,,,,,,,,NA
+,7/19/21,8005,,151.833,Alive,,,,,,,,,NA
+,7/19/21,8775,,151.033,No Signal,,,,,,,,,NA
+,7/19/21,8757,,150.993,No Signal,,,,,,,,,NA
+,7/19/21,8714,,150.916,Alive,,,,,,,,,NA
+,7/19/21,8010,,151.439,Alive,,,,,W,,,,NA
+,7/19/21,8734,,151.103,No Signal,,,,,,,,,NA
+,7/19/21,8736,,151.184,Alive,,,,,,,,,NA
+,7/19/21,8747,,151.384,No Signal,,,,,W,,,,NA
+,7/19/21,8736,,151.184,Alive,,,,,,n/a,n/a,n/a,NA
+,7/19/21,8734,,151.103,No Signal,,,,,,n/a,n/a,n/a,NA
+,7/19/21,8750,,151.143,Alive,,,,,W,n/a,n/a,n/a,NA
+,7/19/21,8719,,151.283,Alive,,,,,,n/a,n/a,n/a,NA
+,7/19/21,8720,,151.053,Alive,Visual,4900711,579422,,,0,n/a,n/a,NA
+"LC, LB, GE",7/26/21,8723,,151.664,No Signal,,,,,,,,,NA
+"LC, LB, GE",7/26/21,8720,,151.053,No Signal,,,,,,,,,NA
+"LC, LB, GE",7/26/21,8750,,151.143,Alive,,,,,W,,,,NA
+"LC, LB, GE",7/26/21,8719,,151.283,Alive,,,,,,,,,NA
+"LC, LB, GE",7/26/21,8782,,150.119,No Signal,,,,,W,,,,NA
+"LC, LB, GE",7/26/21,8748,,150.856,No Signal,,,,,W,,,,NA
+"LC, LB, GE",7/26/21,8717,,151.754,Alive,,,,,UNK,,,,NA
+"AE, CC",7/26/21,8026,,151.343,Alive,,,,,,,,,NA
+"AE, CC",7/26/21,8798,,151.014,No Signal,,,,,,,,,NA
+"AE, CC",7/26/21,8706,,151.053,Alive,,,,,,,,,NA
+"AE, CC",7/26/21,8714,,150.776,Alive,,,,,,,,,NA
+"AE, CC",7/26/21,675,,151.623,No Signal,,,,,W,,,,NA
+"AE, CC",7/26/21,8733,,151.234,Alive,,,,,,,,,NA
+"AE, CC",7/26/21,8005,,151.833,Alive,,,,,,,,,NA
+"AE, CC",7/26/21,8775,,151.033,No Signal,,,,,,,,,NA
+"AE, CC",7/26/21,8757,,150.993,No Signal,,,,,,,,,NA
+"AE, CC",7/26/21,8059,,149.255,No Signal,,,,,UNK,,,,NA
+"AE, CC",7/26/21,8714,,150.916,Alive,,,,,,,,,NA
+"LC, LB, GE",7/26/21,8010,,151.439,Alive,,,,,W,,,,NA
+"LC, LB, GE",7/26/21,8734,,151.103,No Signal,,,,,,,,,NA
+"LC, LB, GE",7/26/21,8736,,151.184,No Signal,,,,,,,,,NA
+"LC, LB, GE",7/26/21,8747,,151.384,No Signal,,,,,W,,,,NA
+"LC, CG",8/3/21,8723,,151.664,No Signal,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8720,,151.053,Alive,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8750,,151.143,Alive,antenna,,,,W,,,,NA
+"LC, CG",8/3/21,8719,,151.283,alive,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8782,,150.119,No Signal,antenna,,,,W,,,,NA
+"LC, CG",8/3/21,8748,,150.856,No Signal,antenna,,,,W,,,,NA
+"LC, CG",8/3/21,8717,,151.754,Alive,antenna,,,,UNK,,,,NA
+"LC, CG",8/3/21,8026,,151.343,Alive,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8798,,151.014,No Signal,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8707,,150.973,No Signal,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8706,,151.053,Alive,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8714,,150.776,No Signal,antenna,,,,,,,,NA
+"LC, CG",8/3/21,675,,151.623,No Signal,antenna,,,,W,,,,NA
+"LC, CG",8/3/21,8733,,151.234,Alive,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8005,,151.833,Alive,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8775,,151.033,No Signal,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8757,,150.993,alive,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8059,,149.255,No Signal,antenna,,,,UNK,,,,NA
+"LC, CG",8/3/21,8714,,150.916,Alive,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8010,,151.439,Alive,antenna,,,,W,,,,NA
+"LC, CG",8/3/21,8734,,151.103,No Signal,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8736,,151.184,Alive,antenna,,,,,,,,NA
+"LC, CG",8/3/21,8747,,151.384,No Signal,antenna,,,,W,,,,NA
+LC,8/4/21,8734,,151.103,No Signal,antenna,,,,,,,,NA
+LC,8/4/21,8736,,151.184,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/6/21,8719,1,151.283,Alive,Visual,4900876,579505,1,B,0,0,0,6
+LC,8/6/21,8723,,151.664,No Signal,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+CC,8/6/21,8750,,151.143,Alive,Visual,4900230,579354,n/a ,W,0,0,0,NA
+CC,8/6/21,8720,,151.053,alive,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+CC,8/7/21,8026,,151.343,Alive,antenna,,,,,,,,NA
+CC,8/7/21,8798,,151.014,No Signal,antenna,,,,,,,,NA
+CC,8/7/21,8707,,150.973,No Signal,antenna,,,,,,,,NA
+LC,8/7/21,8706,,151.053,Dead;See note,Visual,4924093,580873,n/a,,n/a,0,0,NA
+LC,8/7/21,8714,,151.776,Alive,Potential Visual,4923871,580461,n/a,,n/a,0,0,NA
+"LC, CC",8/7/21,8782,,150.119,No Signal,antenna,n/a,n/a,,W,n/a,0,0,NA
+"LC, CC",8/7/21,8748,,150.856,No Signal,antenna,n/a,n/a,,W,n/a,0,0,NA
+"LC, CC",8/7/21,8717,,151.754,Alive,antenna,n/a,n/a,,UNK,n/a,0,0,NA
+"LC, CC",8/7/21,8747,,151.384,No Signal,antenna,n/a,n/a,,W,n/a,0,0,NA
+"LC, CC",8/8/21,8769,,150.616,Alive,antenna,,,,,n/a,0,0,NA
+"LC, CC",8/10/21,8740,,149.185,Dead,visual,44.30817003,-121.997311,1,UNK,0,0,0,NA
+"LC, CC",8/10/21,8005,1,151.833,alive,Visual,4924877,581195,4,B,0,0,0,3
+"LC, CC",8/10/21,8733,,151.234,alive,Visual,n/a,n/a,n/a,,0,0,0,NA
+"LC, CC",8/10/21,8714,1,150.916,alive,Visual,4924864,581350,NA,B,0,0,0,5
+LC,8/21/21,8719,2,151.283,alive,Visual,4900859,579508,NA,B,0,0,0,7
+LC,8/21/21,8720,,151.053,alive,antenna,n/a,n/a,,,0,0,0,NA
+LC,8/21/21,8750,,151.143,Alive,antenna,n/a,n/a,,W,0,0,0,NA
+LC,8/21/21,675,,151.623,No Signal,antenna,n/a,n/a,,W,0,0,0,NA
+LC,8/21/21,8733,2,151.234,alive,Visual,4924854,581388,NA,B,0,0,0,2
+LC,8/21/21,8005,2,151.833,Alive,visual,4924941,581357,NA,B,0,0,0,6
+LC,8/27/21,8010,,151.439,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,8/27/21,675,,151.623,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,8/27/21,8733,,151.234,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8005,,151.833,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8775,,151.033,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8757,,150.993,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8059,,149.255,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/27/21,8714,,150.916,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8056,,150.776,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/27/21,8026,,151.343,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8707,,150.973,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8717,,151.754,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/27/21,8736,,151.184,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8769,,150.616,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8730,,150.364,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/27/21,8741,,151.016,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/27/21,8772,,150.289,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/27/21,8723,,151.664,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8720,,151.053,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,8750,,151.143,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,8/27/21,8719,,151.283,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/27/21,4723,,149.185,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/27/21,8729,,151.514,Alive,visual; see notes,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/28/21,675,,151.623,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,8/28/21,8733,,151.234,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/28/21,8005,,151.833,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/28/21,8775,,151.033,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/28/21,8757,,150.993,See notes; No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/28/21,8059,,149.255,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/28/21,8714,,150.916,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/28/21,8056,,150.776,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/28/21,8026,,151.343,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/28/21,8707,,150.973,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,8/28/21,8717,,151.754,Dead,visual,582256,4923689,,UNK,,,,NA
+LC,8/28/21,8769,1,150.616,Alive,Visual,582806,4919715,4,B,0,0,0,3
+LC,8/29/21,8741,,151.016,No signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,8/29/21,8772,,150.289,Alive,antenna,n/a,n/a,,UNK,0,0,0,NA
+LC,9/3/21,8720,,151.053,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/3/21,8750,,151.143,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/3/21,8719,,151.283,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/3/21,4723,,149.185,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/3/21,8729,,151.514,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/3/21,8731,,151.303,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/3/21,8772,,150.289,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/3/21,8772,,150.289,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/3/21,8026,4,151.343,Alive,visual,581294,492355,NA,B,0,0,0,10
+LC,9/3/21,8798,,151.014,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/3/21,8707,,150.973,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/3/21,8056,,150.776,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/3/21,675,,151.623,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/3/21,8733,,151.234,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/3/21,8005,,151.833,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/3/21,8010,,151.439,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/3/21,8782,,150.119,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/4/21,8730,,150.364,alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/4/21,8734,,151.103,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/4/21,8736,,151.184,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/4/21,8769,,150.616,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/4/21,8720,1,151.053,Alive,visual,579362,4900856,4,B,0,0,0,10
+LC,9/4/21,8750,,151.143,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/4/21,8719,3,151.283,Alive,visual,579461,4900819,4,B,0,0,0,2
+LC,9/4/21,4723,1,149.185,Alive,visual,579594,4900598,4,UNK,0,0,0,1
+LC,9/4/21,8729,1,151.514,Alive,visual,579326,4900537,3,UNK,0,0,0,5
+LC,9/4/21,8731,,151.303,alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/4/21,8741,,151.016,No signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/4/21,8772,,150.289,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/9/21,8026,5,151.343,Alive,visual,44.459,-121.981,2,B,0,0,0,10
+LC,9/9/21,675,,151.623,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/9/21,8733,3,151.234,Alive,visual,44.473,-121.976,4,B,0,0,0,10
+LC,9/9/21,8005,,151.833,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/9/21,8775,,151.033,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/9/21,8757,,150.993,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/9/21,8059,,149.255,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/9/21,8714,,150.916,see notes; no signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/12/21,8798,,151.014,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/12/21,8707,,150.973,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/12/21,8056,,150.776,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/12/21,675,,151.623,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/12/21,8733,4,151.234,Alive,visual,581356,4924814,,B,0,0,0,5
+LC,9/12/21,8005,,151.833,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/12/21,8775,,151.033,See notes; No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/12/21,8757,,150.993,see notes; no signal ,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/12/21,8059,,149.255,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/12/21,8714,,150.916,see notes; alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/13/21,8783,,151.096,see notes; no signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/13/21,8026,,150.936,see notes; no signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/14/21,8734,,151.103,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/14/21,8736,,151.184,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/14/21,8769,,150.616,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/17/21,675,,151.623,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/17/21,8733,,151.234,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/17/21,8005,,151.833,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/17/21,8775,,151.033,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/17/21,8757,,150.993,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/17/21,8059,,149.255,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/17/21,8714,,150.916,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/17/21,8734,,151.103,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/17/21,8769,2,150.616,Alive,Visual,44.425971,-121.959655,4,W,5,0,0,5
+LC,9/17/21,8736,,151.184,Alive,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+LC,9/17/21,8720,,151.053,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/17/21,8750,,151.143,Dead,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/17/21,8719,,151.283,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/17/21,4723,,149.185,alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/17/21,8729,,151.514,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/17/21,8731,,151.303,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/17/21,8772,,150.289,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/17/21,8741,,151.016,Did not scan ,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/17/21,8730,,150.364,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/19/21,8026,,150.936,alive,visual,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/19/21,8738,,151.096,No Signal,antenna,n/a,n/a,n/a,B,n/a,0,0,NA
+LC,9/19/21,8707,,150.973,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,9/19/21,8056,,150.776,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/19/21,8735,,151.343,Alive,antenna,n/a,n/a,n/a,B,n/a,0,0,NA
+LC,9/19/21,8727,,151.754,alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/19/21,8010,,151.439,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/19/21,8782,,150.119,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/19/21,8747,,151.384,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+LC,9/23/21,8741,,151.016,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+LC,9/23/21,8772,,150.289,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"LC, HW",9/25/21,8720,,151.053,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"LC, HW",9/25/21,8750,,151.143,dead,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+"LC, HW",9/25/21,8719,,151.283,dead,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"LC, HW",9/25/21,4723,,149.185,alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"LC, HW",9/25/21,8729,,151.514,alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"LC, HW",9/25/21,8731,,151.303,alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"LC, HW",9/26/21,8730,,150.364,Alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"LC, HW",9/26/21,8709,,151.894,alive,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+"LC, HW",9/26/21,8734,,151.103,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"LC, HW",9/26/21,8736,,151.184,Alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+"LC, HW",9/26/21,8769,,150.616,alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+HW,9/27/21,8026,,150.936,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+HW,9/27/21,8798,,151.014,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+HW,9/27/21,8707,,150.973,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+HW,9/27/21,8056,,150.776,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+HW,9/27/21,675,,151.623,No Signal,antenna,n/a,n/a,n/a,W,n/a,0,0,NA
+HW,9/27/21,8733,,151.234,alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+HW,9/27/21,8005,,151.833,alive,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+HW,9/27/21,8775,,151.033,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+HW,9/27/21,8757,,150.993,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+HW,9/27/21,8059,,149.255,No Signal,antenna,n/a,n/a,n/a,UNK,n/a,0,0,NA
+HW,9/27/21,8714,,150.916,No Signal,antenna,n/a,n/a,n/a,,n/a,0,0,NA
+LC,10/5/21,8735,1,151.343,alive,visual,581144 4923509,,1,B,0,0,0,1
+LC,10/5/21,8727,1,151.754,alive,visual,580998 4923616,,3,UNK,0,0,0,2
+LC,10/5/21,8733?,,151.234,alive,visual?,581404 4924860,,NA,,,,,NA
+LC,10/5/21,8005,3,151.833,alive,visual,581266 4925016,,2,B,0,0,0,1.5
+LC,10/5/21,8750,,151.143,dead,antenna,579058 4900551,,n/a,W,n/a,n/a,n/a,NA
+LC,10/5/21,8720,,151.053,alive,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+LC,10/5/21,4723,,149.185,alive,antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/5/21,8729,,151.514,dead,antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/5/21,8731,,151.303,alive,antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/15/21,8720,,151.053,alive,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+LC,10/15/21,4723,,149.185,dead,antenna,579611 4901005,,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/15/21,8731,,151.303,dead,antenna,579423 4900719,,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/15/21,8729,,151.514,see notes,antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/15/21,8772,,150.289,Alive,antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/15/21,8709,,151.894,Alive,antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/15/21,8730,,150.364,Alive,antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/18/21,8735,,151.343,alive,antenna,n/a,n/a,n/a,B,n/a,n/a,n/a,NA
+LC,10/18/21,8727,,151.754,alive,antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/18/21,8738,,150.909,No signal,antenna,n/a,n/a,n/a,B,n/a,n/a,n/a,NA
+LC,10/18/21,8026,,150.936,No signal,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+LC,10/18/21,8056,,150.776,No signal,antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/18/21,675,,151.623,No signal,antenna,n/a,n/a,n/a,W,n/a,n/a,n/a,NA
+LC,10/18/21,8733,,151.234,Alive,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+LC,10/18/21,8005,,151.833,Alive,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+LC,10/21/21,675,,151.623,No signal,antenna,n/a,n/a,n/a,W,n/a,n/a,n/a,NA
+LC,10/21/21,8714,,150.916,signal?,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+LC,10/21/21,8733,,151.234,alive,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+LC,10/21/21,8005,,151.833,alive,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+LC,10/21/21,8775,,151.033,signal?,antenna,n/a,n/a,n/a,,n/a,n/a,n/a,NA
+LC,10/21/21,8059,,149.255,signal?,antenna,n/a,n/a,n/a,UNK,n/a,n/a,n/a,NA
+LC,10/27/21,8735,,,alive,antenna,,,,B,,,,NA
+LC,10/27/21,8727,,,alive,antenna,,,,UNK,,,,NA
+LC,10/27/21,8738,,,alive?,antenna,,,,B,,,,NA
+LC,10/27/21,8736,,,alive,antenna,,,,,,,,NA
+LC,10/27/21,8730,,,No Signal,antenna,,,,UNK,,,,NA
+LC,10/27/21,8772,,,alive,antenna,,,,UNK,,,,NA
+LC,10/27/21,8709,,,alive,antenna,,,,UNK,,,,NA
+LC,10/27/21,8720,,,alive,antenna,,,,,,,,NA
+LC,10/27/21,8730,,,alive,antenna,,,,UNK,,,,NA
+LC,10/31/21,8720,,151.053,alive,antenna,,,,,,,,NA
+LC,10/31/21,8738,,150.909,alive,antenna,,,,B,,,,NA
+LC,10/31/21,8735,,151.343,alive,antenna,,,,B,,,,NA
+LC,10/31/21,8727,,151.754,alive,antenna,,,,UNK,,,,NA
+LC,10/31/21,675,,151.623,No Signal,antenna,,,,W,,,,NA
+LC,10/31/21,8733,,151.234,alive,antenna,,,,,,,,NA
+LC,10/31/21,8005,,151.833,alive,antenna,,,,,,,,NA
+LC,10/31/21,8736,,151.184,No Signal,antenna,,,,,,,,NA
+LC,10/31/21,8730,,150.364,alive,antenna,,,,UNK,,,,NA
+LC,10/31/21,8772,,150.289,alive,antenna,,,,UNK,,,,NA
+LC,10/31/21,8709,,151.894,alive,antenna,,,,UNK,,,,NA
+LC,10/31/21,635,,152.478,alive,antenna,,,,B,,,,NA
+LC,10/31/21,609,,151.285,alive,antenna,,,,B,,,,NA
+LC,10/31/21,8767,,151.435,alive,visual,,,,W,,,,NA
+LC,10/31/21,8770,,151.303,alive,visual,,,,B,,,,NA
+LC,10/31/21,8766,,149.185,alive,antenna,,,,W,,,,NA
+LC,10/31/21,8074,,151.143,dead,antenna,,,,B,,,,NA
+LC,11/3/21,8074,,151.143,dead,antenna,trap 46,,,B,,,,NA
+LC,11/3/21,8774,,151.283,dead,antenna,581594,4923891,,B,,,,NA
+"LC, LB",11/7/21,8026,,,n/a?,antenna,,,,,,,,NA
+"LC, LB",11/7/21,8056,,,no signal,antenna,,,,UNK,,,,NA
+"LC, LB",11/7/21,8735,,,alive,antenna,,,,B,,,,NA
+"LC, LB",11/7/21,8738,,,alive,antenna,,,,B,,,,NA
+"LC, LB",11/7/21,8727,,,alive,antenna,,,,UNK,,,,NA
+"LC, LB",11/7/21,8720,,,alive,antenna,,,,,,,,NA
+"LC, LB",11/7/21,8772,,,alive,antenna,,,,UNK,,,,NA
+"LC, LB",11/7/21,8709,,,alive,antenna,,,,UNK,,,,NA
+"LC, LB",11/7/21,8736,,,alive,antenna,,,,,,,,NA
+"LC, LB",11/7/21,8769,,,no signal ,antenna,,,,,,,,NA
+"LC, LB",11/7/21,609,1,,alive,visual ,579340,4927258,4,B,0,0,0,3
+"LC, LB",11/7/21,635,,,alive,antenna,,,,B,,,,NA
+"LC, LB",11/7/21,8733,,,alive,antenna,,,,,,,,NA
+"LC, LB",11/7/21,8005,,,alive,antenna,,,,,,,,NA
+"LC, LB",11/7/21,8766,,,dead,antenna,,,,W,,,,NA
+"LC, LB",11/7/21,8770,,,dead,antenna,,,,B,,,,NA
+"LC, LB",11/7/21,8767,,,alive,antenna,,,,W,,,,NA
+SM,11/14/21,8735,,151.343,alive,antenna,,,,B,,,,NA
+SM,11/14/21,8738,,150.909,alive,antenna,,,,B,,,,NA
+SM,11/14/21,8727,,151.754,alive,antenna,,,,UNK,,,,NA
+SM,11/14/21,8766,,149.185,dead,antenna,,,,W,,,,NA
+SM,11/14/21,8770,,151.303,dead,antenna,,,,B,,,,NA
+SM,11/14/21,8767,,151.435,alive,antenna,,,,W,,,,NA
+SM,11/14/21,8733,,151.234,alive,antenna,,,,,,,,NA
+SM,11/14/21,8005,,151.833,alive,antenna,,,,,,,,NA
+SM,11/14/21,609,,151.285,dead,antenna,,,,B,,,,NA
+SM,11/14/21,635,,152.478,alive,antenna,,,,B,,,,NA
+LC,11/24/21,8711,,,alive,antenna,,,,B,,,,NA
+LC,11/24/21,8757,,152.478,alive,antenna,,,,,,,,NA
+LC,11/24/21,8733,,,alive,antenna,,,,,,,,NA
+LC,11/24/21,8005,,,alive,antenna,,,,,,,,NA
+LC,11/24/21,8736,,,alive,antenna,,,,,,,,NA
+LC,11/24/21,8769,,,No Signal ,antenna,,,,,,,,NA
+LC,11/24/21,8737,,,Alive,antenna,,,,W,,,,NA
+LC,11/27/21,8720,,,Alive,antenna,,,,,,,,NA
+LC,11/27/21,8772,,,Alive,antenna,,,,UNK,,,,NA
+LC,11/27/21,8709,,,Alive,antenna,,,,UNK,,,,NA
+LC,11/27/21,8730,,,Alive,antenna,,,,UNK,,,,NA
+LC,12/4/21,8736,,,alive,antenna,,,,,,,,NA
+LC,12/4/21,8737,,,alive,antenna,,,,W,,,,NA
+LC,12/4/21,8769,,,alive,visual,,,,,,,,NA
+LC,12/4/21,8763,,,alive,antenna,,,,W,,,,NA
+LC,12/4/21,8772,,,alive,antenna,,,,UNK,,,,NA
+LC,12/4/21,8709,,,alive,antenna,,,,UNK,,,,NA
+LC,12/4/21,8720,,,alive,antenna,,,,,,,,NA
+LC,12/4/21,8733,,,alive,antenna,,,,,,,,NA
+LC,12/4/21,8005,,,alive,antenna,,,,,,,,NA
+LC,12/4/21,8775,,,No Signal ,antenna,,,,,,,,NA
+LC,12/4/21,8757,,,Alive,antenna,,,,,,,,NA
+LC,12/4/21,8711,,,Alive,antenna,,,,B,,,,NA
+LC,12/4/21,8738,,,Alive,antenna,,,,B,,,,NA
+LC,12/4/21,8735,,,alive,antenna,,,,B,,,,NA
+LC,12/4/21,8702,,,Alive,antenna,,,,,,,,NA
+LC,12/4/21,8767,,,Alive,antenna,,,,W,,,,NA
+LC,12/13/21,8720,,,alive,antenna,,,,,,,,NA
+LC,12/13/21,8772,,,alive,antenna,,,,UNK,,,,NA
+LC,12/13/21,8709,,,alive,antenna,,,,UNK,,,,NA
+LC,12/13/21,8711,,,alive,antenna,,,,B,,,,NA
+LC,12/13/21,8738,,,alive,antenna,,,,B,,,,NA
+LC,12/13/21,8735,,,alive,antenna,,,,B,,,,NA
+LC,12/13/21,8726,,,no signal ,antenna,,,,,,,,NA
+LC,12/13/21,8767,,,alive,antenna,,,,W,,,,NA
+LC,12/13/21,8702,,,alive,antenna,,,,,,,,NA
+LC,12/14/21,8730,,,alive,antenna,,,,UNK,,,,NA
+LC,1/13/22,8702,,150.855,alive,,,,,,,,,NA
+LC,1/13/22,8733,,151.234,alive,,,,,,,,,NA
+LC,1/13/22,8005,,151.303,dead,,,,,,,,,NA
+LC,1/13/22,8757,,152.478,alive,,,,,,,,,NA
+LC,1/13/22,8738,,150.909,alive,,,,,B,,,,NA
+LC,1/13/22,8735,,151.343,alive,,,,,B,,,,NA
+LC,1/13/22,8726,,151.223,No signal ,,,,,,,,,NA
+LC,1/13/22,8711,,151.143,No signal ,,,,,B,,,,NA
+LC,1/13/22,8767,,151.435,alive,,,,,W,,,,NA
+LC,1/13/22,8736,,151.184,no signal,,,,,,,,,NA
+LC,1/13/22,8737,,151.285,alive,,,,,W,,,,NA
+LC,1/17/22,8730,,150.364,alive,,,,,UNK,,,,NA
+LC,1/17/22,634,,149.036,No signal ,,,,,B,,,,NA
+LC,1/17/22,E062,,149.076,No signal ,,,,,,,,,NA
+LC,1/17/22,8710,,,,,,,,B,,,,NA
+LC,1/18/22,8775,,149.176,no signal ,,,,,,,,,NA
+LC,1/19/22,8711,,151.143,No signal ,,,,,B,,,,NA
+LC,1/19/22,8733,,151.234,alive,,,,,,,,,NA
+LC,1/19/22,8005,,151.303,dead,,,,,,,,,NA
+LC,1/19/22,8757,,152.478,see notes,,,,,,,,,NA
+LC,1/19/22,8702,,150.855,alive,,,,,,,,,NA
+LC,1/19/22,8738,,150.909,alive,,,,,B,,,,NA
+LC,1/19/22,8735,,151.343,alive,,,,,B,,,,NA
+LC,1/19/22,8726,,151.223,No signal ,,,,,,,,,NA
+LC,1/19/22,8767,,151.435,No signal ,,,,,W,,,,NA
+LC,1/19/22,8736,,151.184,No signal ,,,,,,,,,NA
+LC,1/19/22,8737,,151.285,alive,,,,,W,,,,NA
+LC,1/25/21,8772,,150.289,alive,,,,,UNK,,,,NA
+LC,1/25/21,8709,,151.894,no signal ,,,,,UNK,,,,NA
+Lc,1/25/21,8720,,151.053,alive,,,,,,,,,NA
+LC,1/27/22,8702,,150.855,alive,,,,,,,,,NA
+LC,1/27/22,8733,,151.234,alive,,,,,,,,,NA
+LC,1/27/22,8005,,151.303,dead,,,,,,,,,NA
+LC,1/27/22,8757,,152.478,n/a,,,,,,,,,NA
+LC,1/27/22,8711,,151.143,no signal,,,,,B,,,,NA
+LC,1/27/22,8736,,151.184,no signal,,,,,,,,,NA
+LC,1/27/22,8737,,151.285,alive,,,,,W,,,,NA
+LC,1/28/22,8738,,150.909,alive,,,,,B,,,,NA
+LC,1/28/22,8735,,151.343,alive,,,,,B,,,,NA
+LC,1/28/22,8726,,151.223,no signal,,,,,,,,,NA
+LC,1/28/22,8767,,151.435,no signal,,,,,W,,,,NA
+LC,2/4/22,8736,,151.184,no signal,,,,,,,,,NA
+LC,2/4/22,8737,,151.285,alive,,,,,W,,,,NA
+LC,2/4/22,8702,,150.855,alive,,,,,,,,,NA
+LC,2/4/22,8733,,151.234,alive,,,,,,,,,NA
+LC,2/4/22,8005,,151.303,dead,,,,,,,,,NA
+LC,2/4/22,8757,,152.478,defunct,,,,,,,,,NA
+LC,2/4/22,8711,,151.143,no signal,,,,,B,,,,NA
+LC,2/4/22,8738,,150.909,alive,,,,,B,,,,NA
+LC,2/4/22,8735,,151.343,alive,,,,,B,,,,NA
+LC,2/4/22,8726,,151.223,no signal,,,,,,,,,NA
+LC,2/4/22,8767,,151.435,alive,,,,,W,,,,NA
+LC,2/5/22,8702,,150.855,alive,antenna,,,,,,,,NA
+LC,2/6/22,8767,,151.435,alive,antenna,n/a,n/a,,W,,,,NA
+LC,2/6/22,8733,5,151.234,alive,visual,581491,4924994,4,B,0,50,100,4
+LC,2/6/22,8757,1,152.478,alive,visual,581492,4924443,4,B,0,50,100,1
+LC,2/6/22,8737,1,151.285,alive,visual,582605,4919471,4,W,100,100,100,3
+LC,2/7/22,8767,1,151.435,alive,visual,581459,4922345,3,W,100,100,100,2.5
+LC,2/8/22,8736,,151.184,no signal,antenna,,,,,,,,NA
+LC,2/8/22,8737,,151.285,alive,antenna,,,,W,,,,NA
+LC,2/8/22,8702,,150.855,alive,antenna,,,,,,,,NA
+LC,2/8/22,8733,,151.234,alive,antenna,,,,,,,,NA
+LC,2/8/22,8005,,151.303,dead,antenna,,,,,,,,NA
+LC,2/8/22,8757,,152.478,alive,antenna,,,,,,,,NA
+LC,2/8/22,8711,,151.143,no signal,antenna,,,,B,,,,NA
+LC,2/8/22,8738,,150.909,alive,antenna,,,,B,,,,NA
+LC,2/8/22,8735,,151.343,alive,antenna,,,,B,,,,NA
+LC,2/8/22,8726,,151.223,no signal,antenna,,,,,,,,NA
+LC,2/8/22,8767,,151.435,alive,antenna,,,,W,,,,NA
+LC,2/20/22,8711,,151.143,no signal,antenna,,,,B,,,,NA
+LC,2/20/22,8733,6,151.234,alive,visual,581499,4924992,2,B,0,60,100,1
+LC,2/20/22,8757,,152.478,alive,antenna,,,,,,,,NA
+LC,2/20/22,8738,1,150.909,alive,visual,580505,4923855,4,B,0,50,100,0
+LC,2/20/22,8735,,151.343,alive,see notes,581101,4923444,4,B,0,100,100,NA
+LC,2/20/22,8702,,150.855,alive,antenna,,,,,,,,NA
+LC,2/20/22,8767,,151.435,no signal,antenna,,,,W,,,,NA
+LC,2/20/22,8736,,151.184,no signal,antenna,,,,,,,,NA
+LC,2/20/22,8737,2,151.285,alive,visual,582507,4919377,4,W,96,50,100,0
+LC,2/23/22,8735,,151.343,alive,antenna,n/a,n/a,,B,,,,NA
+LC,2/23/22,,,,,,,,,,,,,NA
+LC,2/23/22,,,,,,,,,,,,,NA
+LC,2/23/22,,,,,,,,,,,,,NA
+LC,2/23/22,8702,1,150.855,alive,visual,581453,4923629,4,B,0,100,100,0
+LC,2/27/22,8767,,151.435,alive,,,,,W,,,,NA
+Lc,2/27/22,8726,,151.223,no signal,,,,,,,,,NA
+LC,2/27/22,8738,,150.909,no signal,,,,,B,,,,NA
+LC,2/27/22,8735,,151.343,alive,,,,,B,,,,NA
+LC,2/27/22,8733,,151.234,alive,,,,,,,,,NA
+LC,2/27/22,8757,,152.478,see notes,,,,,,,,,NA
+LC,2/27/22,8711,,151.143,no signal,,,,,B,,,,NA
+LC,2/27/22,8736,,151.184,no signal,,,,,,,,,NA
+LC,2/27/22,8737,,151.285,Dead,,,,,W,,,,NA
+LC,2/27/22,8702,,150.855,alive,,,,,,,,,NA
+LC,2/28/22,8737,,151.285,Dead,visual,582570,4919470,,W,,,,NA
+LC,3/3/22,8738,,150.909,alive,see notes,44.464,-121.986,,B,,,,NA
+LC,3/3/22,8735,,151.343,alive,see notes,44.46,-121.981,,B,,,,NA
+LC,3/3/22,8702,2,150.855,alive,visual,9581587,4923698,4,B,0,100,100,5
+LC,3/4/22,8767,2,151.435,alive,visual,581544,4922347,4,W,100,100,100,3
+LC,3/8/22,8733,7,151.234,alive,visual,44.473,-121.975,4,B,0,100,100,3
+LC,3/9/22,8711,,151.143,no signal,,,,,B,,,,NA
+LC,3/9/22,8733,8,151.234,alive,visual,5981499,4924992,4,B,0,100,100,2
+LC,3/9/22,8757,,152.478,see notes,,,,,,,,,NA
+LC,3/9/22,8738,,150.909,alive,,,,,B,,,,NA
+LC,3/9/22,8735,,151.343,alive,,,,,B,,,,NA
+LC,3/9/22,8702,,150.855,alive,,,,,,,,,NA
+LC,3/9/22,8716,1,151.623,"alive, see notes",visual,581410,4923649,4,B,0,100,100,5
+LC,3/9/22,8767,,151.435,alive,,,,,W,,,,NA
+LC,3/10/22,8072,,151.574,alive,,,,,W,,,,NA
+LC,3/10/22,8761,,151.403,alive,,,,,,,,,NA
+LC,3/10/22,8055,,151.303,alive,,,,,,,,,NA
+LC,3/14/22,8702,,150.855,alive,,,,,,,,,NA
+LC,3/14/22,8716,,151.623,alive,,,,,,,,,NA
+LC,3/17/22,8767,,151.435,alive,,,,,W,,,,NA
+LC,3/17/22,8738,,150.909,no signal,,,,,B,,,,NA
+LC,3/17/22,8735,,151.343,alive,,,,,B,,,,NA
+LC,3/17/22,8765,,151.285,alive,,,,,W,,,,NA
+LC,3/17/22,8733,,151.234,alive,,,,,,,,,NA
+LC,3/17/22,8757,,152.478,see notes,,,,,,,,,NA
+LC,3/17/22,8072,,151.574,alive,,,,,W,,,,NA
+LC,3/17/22,8761,,151.894,Dead,see notes,583150,4920303,,,,,,NA
+LC,3/17/22,8055,,151.303,alive,,,,,,,,,NA
+LC,3/17/22,,,,,,,,,,,,,NA
+LC,3/17/22,,,,,,,,,,,,,NA
+LC,3/17/22,8772,,150.289,alive,,,,,UNK,,,,NA
+LC,3/17/22,8709,,151.894,no signal,,,,,UNK,,,,NA
+LC,3/17/22,8720,,151.053,alive,,,,,,,,,NA
+LC,3/18/22,8702,,150.855,alive,antenna,,,,,,,,NA
+LC,3/18/22,8716,,151.623,alive,antenna,,,,,,,,NA
+LC,3/18/22,8703,1,151.754,alive,visual,581491,4923685,1,B,0,100,100,4
+LC,3/18/22,8738,,150.909,alive,antenna,,,,B,,,,NA
+LC,3/22/22,8714,2,150.896,alive,visual; see notes,581074,4924527,4,W,99,100,90,6
+LC,3/22/22,8714,3,150.896,alive,visual; see notes,581033,4924524,1,W,99,100,100,5
+LC,3/22/22,8055,1,151.303,alive,visual,582897,4920349,3,B,0,0,90,1.5
+LC,3/22/22,8768,,149.185,dead,antenna,581373,4922039,n/a,W,n/a,n/a,n/a,NA
+LC,3/22/22,8767,3,151.435,alive,antenna,581354,4922283,4,W,NA,NA,NA,NA
+LC,3/24/22,8765,,151.285,alive,antenna,,,,W,,,,NA
+LC,3/24/22,8735,,151.343,alive,antenna,,,,B,,,,NA
+LC,3/24/22,8738,,150.909,alive,antenna,,,,B,,,,NA
+LC,3/24/22,8767,,151.435,alive,antenna,,,,W,,,,NA
+LC,3/24/22,8733,,151.234,alive,antenna,,,,,,,,NA
+LC,3/24/22,8702,,150.855,alive,antenna,,,,,,,,NA
+LC,3/24/22,8716,,151.623,alive,antenna,,,,,,,,NA
+LC,3/24/22,8703,,151.754,alive,antenna,,,,,,,,NA
+LC,3/24/22,8072,,151.574,alive,antenna,,,,W,,,,NA
+LC,3/24/22,8055,,151.303,alive,antenna,,,,,,,,NA
+LC,3/31/22,8765,,151.285,alive,antenna,,,,W,,,,NA
+LC,3/31/22,8735,,151.343,alive,antenna,,,,B,,,,NA
+LC,3/31/22,8738,,150.909,alive,antenna,,,,B,,,,NA
+LC,3/31/22,8767,,151.435,alive,antenna,,,,W,,,,NA
+LC,3/31/22,8733,,151.234,alive,antenna,,,,,,,,NA
+LC,3/31/22,8702,,150.855,alive,antenna,,,,,,,,NA
+LC,3/31/22,8716,,151.623,alive,antenna,,,,,,,,NA
+LC,3/31/22,8703,,151.754,alive,antenna,,,,,,,,NA
+LC,3/31/22,8072,,151.574,alive,antenna,,,,W,,,,NA
+LC,3/31/22,8055,,151.303,alive,antenna,,,,,,,,NA
+LC,3/31/22,8720,,151.053,alive,antenna,,,,,,,,NA
+LC,3/31/22,8772,,150.289,alive,antenna,,,,UNK,,,,NA
+LC,4/6/22,8765,,151.285,alive,antenna,,,,W,,,,NA
+LC,4/6/22,8735,,151.343,alive,antenna,,,,B,,,,NA
+LC,4/6/22,8738,,150.909,alive,antenna,,,,B,,,,NA
+LC,4/6/22,8767,4,151.435,alive,visual,581431,4922358,4,W,97,50,100,1
+LC,4/6/22,8733,,151.234,alive,antenna,,,,,,,,NA
+LC,4/6/22,8702,3,150.855,alive,visual,581490,4923688,1,B,0,100,100,2
+LC,4/6/22,8716,2,151.623,alive,visual,581381,4923688,2,B,0,100,100,5
+LC,4/6/22,8703,2,151.754,alive,visual,581373,4923620,4,B,0,100,100,10
+LC,4/6/22,8072,,151.574,alive,antenna,,,,W,,,,NA
+LC,4/6/22,8055,2,151.303,alive,visual,582877,492036,2,B,0,50,100,5
+LC,4/6/22,8720,,151.053,alive,antenna,,,,,,,,NA
+LC,4/6/22,8772,,150.289,alive,antenna,,,,UNK,,,,NA
+LC,4/6/22,Snow on road thawed but downed trees blocking,,,,,,,,,,,,NA
+HW,5/??/2022,,,,,,,,,,,,,NA
+HW,,,,,,,,,,,,,,NA
+HW,,,,,,,,,,,,,,NA
+HW,,,,,,,,,,,,,,NA
+HW,,,,,,,,,,,,,,NA
+HW,"Hannah came out to check survival during early May, but no data has been entered",,,,,,,,,,,,,NA
+HW,,,,,,,,,,,,,,NA
+HW,,,,,,,,,,,,,,NA
+HW,,,,,,,,,,,,,,NA
+HW,,,,,,,,,,,,,,NA
+HW,,,,,,,,,,,,,,NA
+HW,,,,,,,,,,,,,,NA
+SS,5/22/22,8767,,151.435,No signal,antenna,,,,W,,,,NA
+SS,5/22/22,8702,,150.855,alive,antenna,,,,,,,,NA
+SS,5/22/22,8716,,151.623,alive,antenna,,,,,,,,NA
+SS,5/22/22,8703,,151.754,Dead,antenna,,,,,,,,NA
+SS,5/22/22,8072,,151.574,alive,antenna,,,,W,,,,NA
+SS,5/22/22,8055,,151.303,alive,antenna,,,,,,,,NA
+SS,5/22/22,8765,,150.053,No Signal,antenna,,,,W,,,,NA
+SS,5/22/22,8738,,150.909,No Signal,antenna,,,,B,,,,NA
+SS,5/22/22,8735,,151.343,alive,antenna,,,,B,,,,NA
+SS,5/22/22,664,,149.056,No Signal,antenna,,,,,,,,NA
+SS,5/22/22,8701,,150.093,No Signal,antenna,,,,,,,,NA
+SS,5/22/22,8733,,151.234,No Signal,antenna,,,,,,,,NA
+SS,5/22/22,8757,,150.153,No Signal,antenna,,,,,,,,NA
+SS,5/22/22,641,,151.643,No Signal,antenna,,,,W,,,,NA
+SS,5/22/22,8714,,151.096,No Signal,antenna,,,,,,,,NA
+SS,5/22/22,8708,,149.196,No Signal,antenna,,,,,,,,NA
+SS,5/22/22,8713,,150.113,No Signal,antenna,,,,,,,,NA
+SS,5/23/22,8730,,150.364,No Signal,antenna,,,,UNK,,,,NA
+SS,5/23/22,8772,,150.289,No Signal,antenna,,,,UNK,,,,NA
+SS,5/23/22,8720,,151.053,alive,antenna,,,,,,,,NA
+"SS, AE",5/26/22,8703,,151.754,Dead,visual,581416,4923657,n/a,,n/a,n/a,n/a,NA
+"SS, AE",5/26/22,8716,,151.623,Dead,visual,581419,4923677,n/a,,n/a,n/a,n/a,NA
+"SS, AE",5/26/22,8702,4,150.855,alive,visual,581513,4923672,NA,B,0,NA,100,6.5
+"SS, AE",5/26/22,8072,1,151.574,alive,visual,582963,4920217,4,W,40,0,0,2
+"SS, AE",5/26/22,8735,2,151.343,alive,visual,581132,4923504,1,B,0,0,20,2.5
+"SS, AE",5/26/22,8055,3,151.303,alive,visual,582888,4920425,4,B,0,0,0,2
+SS,6/6/22,8767,,151.435,No signal,antenna,,,,W,,,,NA
+SS,6/6/22,8702,,151.574,No signal,antenna,,,,,,,,NA
+SS,6/6/22,8072,2,151.574,alive,visual,582934,4920248,2,W,7,0,2,3
+SS,6/6/22,8055,,151.303,alive,antenna,,,,,,,,NA
+SS,6/6/22,8765,,150.053,No signal,antenna,,,,W,,,,NA
+SS,6/6/22,8738,,150.909,No signal,antenna,,,,B,,,,NA
+SS,6/6/22,8735,,151.343,alive,antenna,,,,B,,,,NA
+SS,6/6/22,664,,149.056,No signal,antenna,,,,,,,,NA
+SS,6/6/22,8701,,150.093,No signal,antenna,,,,,,,,NA
+SS,6/6/22,8733,,151.234,No Signal,antenna,,,,,,,,NA
+SS,6/6/22,8757,,150.153,No Signal,antenna,,,,,,,,NA
+SS,6/6/22,641,,151.643,No Signal,antenna,,,,W,,,,NA
+SS,6/6/22,8714,,151.096,No Signal,antenna,,,,,,,,NA
+SS,6/6/22,8708,,149.196,No Signal,antenna,,,,,,,,NA
+SS,6/6/22,8713,,150.113,No Signal,antenna,,,,,,,,NA
+"SS, HW",6/22/22,8735,,151.343,alive,antenna,,,,B,,,,NA
+"SS, HW",6/22/22,8738,,150.909,No Signal,antenna,,,,B,,,,NA
+"SS, HW",6/22/22,8733,,151.234,No Signal,antenna,,,,,,,,NA
+"SS, HW",6/22/22,8702,,150.855,alive,antenna,,,,,,,,NA
+"SS, HW",6/22/22,8072,,151.574,alive,antenna,,,,W,,,,NA
+"SS, HW",6/22/22,8055,,151.303,No signal,antenna,,,,,,,,NA
+"SS, HW",6/22/22,8720,,151.053,No signal,antenna,,,,,,,,NA
+"SS, ZL",6/28/22,8702,5,150.855,alive,visual,581503,4923624,2,B,0,0,0,7
+"SS, ZL",6/28/22,8735,3,151.343,alive,visual,581059,4923400,2,B,0,0,0,3
+"SS, ZL",6/28/22,8738,,150.909,No signal,antenna,,,,B,,,,NA
+"SS, ZL",6/28/22,8733,,151.234,No signal,antenna,,,,,,,,NA
+"SS, ZL",6/29/22,8072,3,151.574,alive,visual,582938,4920298,2,W,0,0,0,6
+"SS, ZL",6/29/22,8055,,151.303,No signal,antenna,,,,,,,,NA
+"SS, ZL",7/6/22,620,,150.756,No signal,antenna,,,,UNK,,,,NA
+"SS, ZL",7/6/22,8072,,151.574,alive,antenna,,,,W,,,,NA
+"SS, ZL",7/6/22,8055,,151.303,No Signal,antenna,,,,,,,,NA
+"SS, ZL",7/6/22,8735,,151.343,alive,antenna,,,,B,,,,NA
+"SS, ZL",7/6/22,8738,,150.909,No Signal,antenna,,,,B,,,,NA
+"SS, ZL",7/6/22,8702,,150.855,alive,antenna,,,,,,,,NA
+"SS, ZL",7/6/22,8733,,151.234,No Signal,antenna,,,,,,,,NA
+"SS, ZL",7/6/22,8730,,150.364,Dead,antenna,,,,UNK,,,,NA
+"SS, ZL",7/6/22,8772,,150.289,No signal,antenna,,,,UNK,,,,NA
+"SS, ZL",7/6/22,8720,,151.053,No signal,antenna,,,,,,,,NA
+"SS, ZL",7/12/22,8072,,151.574,alive,visual,4920196,582982,2,W,0,0,0,NA
+"SS, ZL",7/12/22,8055,,151.303,No signal,antenna,,,,,,,,NA
+"SS, ZL",7/12/22,8702,6,150.855,alive,visual,4923596,581519,3,B,0,0,0,NA
+"SS, ZL",7/12/22,8735,,150.033,No signal,antenna,,,,B,,,,NA
+"SS, ZL",7/12/22,8765,,150.053,No signal,antenna,,,,W,,,,NA
+"SS, ZL",7/12/22,8713,,150.113,No signal,antenna,,,,,,,,NA
+"SS, ZL",7/12/22,672,,150.132,No signal,antenna,,,,,,,,NA
+"SS, ZL",7/26/22,CR8A,,149.282,No signal,antenna,,,,,,,,NA
+"SS, ZL",7/26/22,BF1A,,150.18,alive,antenna,,,,,,,,NA
+"SS, ZL",7/26/22,IC4D,1,148.483,alive,visual,581226,4922144,2,B,0,0,0,4
+"SS, ZL",7/26/22,698,1,148.542,alive,visual,581526,4906260,4,UNK,0,0,0,7
+ZL,7/30/22,RU2C,,149.061,No signal,antenna,,,,,,,,NA
+ZL,7/30/22,BF1A,,150.18,No signal,antenna,,,,,,,,NA
+ZL,7/30/22,IC4D,,148.542,No signal,antenna,,,,,,,,NA
+ZL,7/31/22,CR8A,,149.282,No signal,antenna,,,,,,,,NA
+ZL,7/31/22,698,,148.542,No signal,antenna,,,,UNK,,,,NA
+"SS, ZL",8/1/22,8072,4,151.574,alive,visual,582982,4920198,2,W,0,0,0,7
+"SS, ZL",8/1/22,8702,,150.855,alive,antenna,,,,,,,,NA
+"SS, ZL",8/1/22,671,,151.453,alive,antenna,,,,B,,,,NA
+"SS, ZL",8/1/22,690,,151.283,No signal,antenna,,,,UNK,,,,NA
+"SS, ZL",8/1/22,649,,151.754,alive,antenna,,,,UNK,,,,NA
+"SS, ZL",8/1/22,8738,,150.909,No signal,antenna,,,,B,,,,NA
+"SS, ZL",8/3/22,RU2C,,149.282,No signal,antenna,,,,,,,,NA
+"SS, ZL",8/3/22,8738,,150.909,No signal,antenna,,,,B,,,,NA
+"SS, ZL",8/6/22,8702,7,150.855,alive,visual,581468,4923679,1,B,0,0,0,4.5
+"SS, ZL",8/6/22,671,1,151.453,alive,visual,581070,4922064,1,B,0,0,0,2
+"SS, ZL",8/6/22,690,,151.283,No signal,antenna,,,,UNK,,,,NA
+"SS, ZL",8/6/22,698,,148.542,No signal,antenna,,,,UNK,,,,NA
+"SS, ZL",8/6/22,CR8A,,149.282,No signal,antenna,,,,,,,,NA
+"SS, ZL",8/6/22,649,,151.754,alive,visual,,,,UNK,,,,NA
+HW,8/12/22,8072,,151.574,alive,,,,,W,,,,NA
+HW,8/12/22,8702,,150.855,alive,,,,,,,,,NA
+HW,8/12/22,609,,151.283,No Signal,,,,,B,,,,NA
+HW,8/12/22,8738,,150.909,No Signal,,,,,B,,,,NA
+HW,8/12/22,647,,151.623,alive,,,,,UNK,,,,NA
+HW,8/12/22,642,,151.343,alive,,,,,UNK,,,,NA
+HW,8/12/22,,,150.536,Signal,,,,,,,,,NA
+HW,8/12/22,698,,150.416,No Signal,,,,,UNK,,,,NA
+HW,8/12/22,648,,150.476,Signal,,,,,UNK,,,,NA
+"SS, ZL",8/17/22,649,,151.754,alive,antenna,,,,UNK,,,,NA
+"SS, ZL",8/17/22,690,,151.283,No Signal,antenna,,,,UNK,,,,NA
+"SS, ZL",8/17/22,647,,151.623,alive,antenna,,,,UNK,,,,NA
+"SS, ZL",8/17/22,642,,151.343,alive,antenna,,,,UNK,,,,NA
+"SS, ZL",8/19/22,671,,151.453,alive,antenna,,,,B,,,,NA
+"SS, ZL",8/19/22,668,,150.021,alive,antenna,,,,B,,,,NA
+"SS, ZL",8/19/22,649,,151.754,Dead,antenna,,,,UNK,,,,NA
+"SS, ZL",8/19/22,698,,150.416,No Signal,antenna,,,,UNK,,,,NA
+"SS, ZL",8/19/22,608,,150.536,No Signal,antenna,,,,,,,,NA
+"SS, ZL",8/19/22,648,,150.476,No Signal,antenna,,,,UNK,,,,NA
+SS,8/24/22,8702,,151.855,No Signal,antenna,,,,,,,,NA
+SS,8/24/22,8735,,151.754,alive,antenna,,,,B,,,,NA
+SS,8/24/22,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,8/24/22,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,8/24/22,8072,,151.574,alive,antenna,,,,W,,,,NA
+SS,8/24/22,647,,151.623,alive,antenna,,,,UNK,,,,NA
+SS,8/24/22,642,,151.343,No Signal,antenna,,,,UNK,,,,NA
+SS,8/31/22,8702,,150.855,alive,antenna,,,,,,,,NA
+SS,8/31/22,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,8/31/22,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,8/31/22,8072,,151.547,alive,antenna,,,,W,,,,NA
+SS,8/31/22,642,,151.343,No signal,antenna,,,,UNK,,,,NA
+SS,8/31/22,647,,151.623,alive,antenna,,,,UNK,,,,NA
+SS,8/31/22,690,,151.283,alive,antenna,,,,UNK,,,,NA
+SS,9/5/22,648,,150.476,No signal,antenna,,,,UNK,,,,NA
+SS,9/5/22,608,1,150.536,alive,visual,581668,4906495,4,B,0,0,0,5
+SS,9/6/22,8735,,150.576,alive,antenna,,,,B,,,,NA
+SS,9/6/22,625,,150.754,alive,antenna,,,,B,,,,NA
+SS,9/6/22,687,,150.596,alive,antenna,,,,UNK,,,,NA
+SS,9/6/22,642,,151.343,No Signal,antenna,,,,UNK,,,,NA
+SS,9/6/22,647,,151.623,alive,antenna,,,,UNK,,,,NA
+SS,9/6/22,690,,151.283,No Signal,antenna,,,,UNK,,,,NA
+SS,9/6/22,8072,,151.574,alive,antenna,,,,W,,,,NA
+SS,9/6/22,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,9/6/22,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,9/13/22,8735,,150.576,alive,antenna,,,,B,,,,NA
+SS,9/13/22,687,,150.596,alive,antenna,,,,UNK,,,,NA
+SS,9/13/22,647,,151.623,No signal,antenna,,,,UNK,,,,NA
+SS,9/14/22,668,1,150.021,alive,visual,581141,4922135,4,B,0,0,0,4
+SS,9/14/22,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,9/15/22,625,1,151.754,alive,visual,579571,4927119,1,B,0,0,0,4
+SS,9/15/22,607,,150.042,alive,antenna,,,,B,,,,NA
+SS,9/15/22,8702,,150.163,alive,antenna,,,,,,,,NA
+SS,9/17/22,8072,5,151.574,alive,visual,582986,4920200,3,W,0,0,0,2
+SS,9/19/22,608,,150.536,No Signal,antenna,,,,,,,,NA
+SS,9/19/22,647,,151.623,alive,antenna,,,,UNK,,,,NA
+SS,9/21/22,8735,,150.855,alive,antenna,,,,B,,,,NA
+SS,9/21/22,8072,,150.636 (micro: 149.100),Signal/Signal,antenna,,,,W,,,,NA
+SS,9/21/22,676,,150.122,alive,antenna,,,,,,,,NA
+SS,9/21/22,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,9/21/22,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,9/21/22,607,,150.042,alive,antenna,,,,B,,,,NA
+SS,9/21/22,8702,,150.163,alive,antenna,,,,,,,,NA
+SS,9/21/22,625,,151.754,alive,antenna,,,,B,,,,NA
+SS,9/26/22,608,,150.536,No signal,antenna,,,,,,,,NA
+SS,9/26/22,647,,151.623,alive,antenna,,,,UNK,,,,NA
+SS,9/27/22,687,,150.596,No signal,antenna,,,,UNK,,,,NA
+SS,9/28/22,607,1,150.042,alive,visual,581483,4923746,1,B,0,0,0,12
+SS,9/28/22,8702,8,150.163,alive,visual,581520,4923634,4,B,0,0,0,4
+SS,9/28/22,8072,6,150.636 (micro: 149.100),alive,visual,582985,4920193,4,W,0,0,0,4
+SS,9/28/22,676,,150.122,alive,antenna,,,,,,,,NA
+SS,9/28/22,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,9/28/22,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,9/30/22,8735,4,150.855,alive,visual,581142,4923430,3,B,0,0,0,2.5
+SS,9/30/22,625,2,151.754,alive,visual,579570,4927230,3,B,0,0,0,6
+SS,10/5/22,625,,151.754,alive,antenna,,,,B,,,,NA
+SS,10/5/22,8735,,150.855,alive,antenna,,,,B,,,,NA
+SS,10/5/22,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,10/5/22,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,10/5/22,676,,150.021,alive,antenna,,,,,,,,NA
+SS,10/5/22,607,,150.042,alive,antenna,,,,B,,,,NA
+SS,10/5/22,8702,,150.163,alive,antenna,,,,,,,,NA
+SS,10/5/22,647,,151.623,alive,antenna,,,,UNK,,,,NA
+SS,10/10/22,671,2,151.453,alive,visual,581083,4922149,4,B,0,0,0,5
+SS,10/10/22,668,2,150.021,alive,visual,581125,4922137,4,B,5,0,0,6
+SS,10/11/22,676,1,150.122,alive,visual,581197,4922155,4,B,0,0,0,4
+SS,10/12/22,8735,5,150.855,alive,visual,581107,4923578,4,B,0,0,0,2.5
+SS,10/12/22,625,,151.754,alive,antenna,,,,B,,,,NA
+SS,10/13/22,607,2,150.042,alive,visual,581492,4923781,1,B,5,0,0,3.5
+SS,10/13/22,8702,9,150.163,alive,visual,581588,4923672,4,B,3,0,0,3.5
+SS,10/14/22,8072,7,150.636 (micro: 149.100),alive,visual,582964,4920212,4,W,20,0,0,2
+SS,10/14/22,647,,151.623,alive,antenna,,,,UNK,,,,NA
+SS,10/19/22,671,3,151.453,alive,visual,581102,4922091,3,B,0,0,0,2.5
+SS,10/19/22,668,3,150.021,alive,visual,581135,4922133,2,B,0,0,0,2
+SS,10/19/22,676,2,150.122,alive,visual,581215,4922183,4,B,0,0,0,0.5
+SS,10/19/22,607,3,150.042,alive,visual,581453,4923716,3,B,0,0,0,6
+SS,10/19/22,8702,10,150.163,alive,visual,581580,4923673,1,B,0,0,0,9
+SS,10/20/22,8735,6,150.855,alive,visual,581143,4923505,1,B,0,0,0,7
+SS,10/20/22,625,,151.754,alive,visual,,,,B,,,,NA
+SS,10/21/22,8072,,150.636 (micro: 149.100),No signal,antenna,,,,W,,,,NA
+SS,10/21/22,647,,151.623,alive,antenna,,,,UNK,,,,NA
+"SS, AE",10/26/22,625,3,151.754,alive,visual,579536,4927195,3,B,0,50,50,2
+"SS, AE",10/26/22,673,,150,alive,antenna,,,,W,,,,NA
+"SS, AE",10/26/22,8702,11,150.163,alive,visual,581502,4923761,1,B,0,63,63,6
+"SS, AE",10/26/22,607,,150.042,alive,antenna,,,,B,,,,NA
+"SS, AE",10/27/22,671,,151.453,alive,antenna,,,,B,,,,NA
+"SS, AE",10/26/22,668,4,150.021,alive,visual,581147,4922130,4,B,0,95,80,0.5
+"SS, AE",10/26/22,676,3,150.122,alive,visual,581277,4922169,4,B,0,20,80,2.5
+"SS, AE",10/27/22,8072,,150.636 (micro: 149.100),No Signal,antenna,,,,W,,,,NA
+SS,10/31/22,8735,7,150.855,alive,visual,581130,4923417,4,B,0,0,0,1.5
+SS,11/3/22,625,,151.754,alive,antenna,,,,B,,,,NA
+SS,11/3/22,676,4,150.122,alive,visual,581186,4922104,3,B,0,90,85,10
+SS,11/3/22,668,5,150.021,alive,visual,581139,4922129,4,B,0,55,95,0.5
+SS,11/3/22,671,4,151.453,alive,visual,581045,4922226,4,B,0,15,75,0
+SS,11/4/22,8702,,150.163,alive,antenna,,,,,,,,NA
+SS,11/4/22,607,,150.042,No Signal,antenna,,,,B,,,,NA
+SS,11/4/22,673,,150,No Signal,antenna,,,,W,,,,NA
+SS,?? - 11/4/22,695,,150.101,see notes,,,,,B,,,,NA
+SS,11/8/22,8702,12,150.163,alive,visual,581529,4923626,4,B,0,100,100,3
+SS,11/8/22,607,,150.042,Dead,visual,,,,B,,,,NA
+SS,11/8/22,673,1,150,alive,visual,581505,4923488,2,W,25,60,90,5.5
+SS,11/8/22,8735,8,150.855,alive,visual,581090,4923392,1,B,0,100,100,3
+SS,11/10/22,625,4,151.754,alive,visual,579443,4926845,1,B,0,20,95,4
+SS,11/10/22,676,5,150.122,alive,visual,581261,4922163,4,B,0,100,100,4
+SS,11/10/22,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,11/10/22,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,11/14/22,695,,150.101,Dead,antenna,,,,B,,,,NA
+SS,11/15/22,625,,151.754,No signal,antenna,,,,B,,,,NA
+SS,11/15/22,607,,150,Dead,antenna,,,,B,,,,NA
+SS,11/15/22,8702,13,150.163,alive,visual,581498,4923690,2,B,0,95,100,3.5
+SS,11/15/22,8735,,150.855,alive,antenna,,,,B,,,,NA
+SS,11/17/22,694,1,150.737,alive,visual,579478,4927093,4,W,100,100,100,NA
+SS,11/17/22,676,6,150.122,alive,visual,581269,4922176,4,B,0,100,100,NA
+SS,11/17/22,668,6,150.021,alive,antenna (see notes),581106,4922169,4,B,0,NA,NA,NA
+SS,11/17/22,671,5,151.453,alive,visual,581043,4922220,4,B,0,50,95,1
+SS,11/23/22,625,,151.754,No signal,antenna,,,,B,,,,NA
+SS,11/23/22,676,7,150.122,alive,visual,581282,4922205,4,B,0,100,95,6
+SS,11/23/22,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,11/23/22,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,11/24/22,8735,9,150.855,alive,visual,581222,4923565,1,B,0,100,100,4
+SS,11/24/22,631,1,150.202,alive,visual,581061,4923198,1,B,0,100,100,17
+SS,11/24/22,613,,150.183,alive,antenna,,,,B,,,,NA
+SS,11/24/22,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,11/24/22,659,,150.083,alive,antenna,,,,B,,,,NA
+SS,11/24/22,694,,150.737,Signal,antenna,,,,W,,,,NA
+SS,11/24/22,622,1,150.757,alive,visual,580969,4923551,NA,B,0,100,100,16
+SS,11/25/22,8702,,150.163,alive,antenna,,,,,,,,NA
+SS,11/25/22,673,,150,Dead,visual,,,,W,,,,NA
+SS,11/29/22,695,,150.101,Dead,visual,,,,B,,,,NA
+SS,12/2/22,631,2,150.202,alive,visual,581119,4923289,4,B,0,100,100,2
+SS,12/2/22,8735,,150.855,Dead,visual,,,,B,,,,NA
+SS,12/2/22,613,,150.183,alive,antenna,581174,4923513,4,B,0,100,100,NA
+SS,12/2/22,670,1,150.063,alive,visual,580851,4923674,1,B,0,100,100,7
+SS,12/2/22,659,1,150.083,alive,visual,580775,4923252,1,B,0,100,100,23
+SS,12/3/22,8702,14,150.163,alive,visual,581423,4923618,1,B,0,100,100,2
+SS,12/3/22,622,,150.757,No signal,antenna,,,,B,,,,NA
+SS,12/3/22,700,,148.999,No signal,antenna,,,,W,,,,NA
+SS,12/7/22,678,,150.042,alive,antenna,,,,W,,,,NA
+SS,12/7/22,631,,150.202,alive,antenna,,,,B,,,,NA
+SS,12/7/22,613,,150.183,alive,antenna,,,,B,,,,NA
+SS,12/7/22,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,12/7/22,659,,150.083,Dead,visual,,,,B,,,,NA
+SS,12/7/22,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,12/7/22,671,,151.453,No signal,antenna,,,,B,,,,NA
+SS,12/7/22,676,,150.122,No signal,antenna,,,,,,,,NA
+SS,12/7/22,8702,,150.163,alive,antenna,,,,,,,,NA
+SS,12/14/22,613,1,150.183,alive,visual,580949,4923663,1,B,0,100,100,2
+SS,12/14/22,670,2,150.063,alive,visual,580908,4923669,4,B,0,100,100,2
+SS,12/17/22,631,,150.202,alive,antenna,,,,B,,,,NA
+SS,12/17/22,8702,,150.163,alive,antenna,,,,,,,,NA
+SS,12/15/22,678,,150.042,alive,visual,581010,4924502,4,W,100,100,100,NA
+SS,12/16/22,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,12/16/22,676,,150.122,alive,antenna,,,,,,,,NA
+SS,12/16/22,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,12/17/22,622,,150.757,No signal,antenna,,,,B,,,,NA
+SS,12/17/22,700,,148.999,No signal,antenna,,,,W,,,,NA
+SS,1/12/23,678,,150.042,alive,antenna,,,,W,,,,NA
+SS,1/12/23,613,,150.183,alive,antenna,,,,B,,,,NA
+SS,1/12/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,1/12/23,631,,150.202,alive,antenna,,,,B,,,,NA
+SS,1/12/23,627,,150.101,alive,antenna,,,,B,,,,NA
+SS,1/12/23,616,,150.083,alive,antenna,,,,B,,,,NA
+SS,1/12/23,8702,,150.163,alive,antenna,,,,,,,,NA
+SS,1/12/23,671,,151.453,alive,antenna,,,,B,,,,NA
+SS,1/12/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,1/12/23,676,,150.122,alive,antenna,,,,,,,,NA
+SS,1/17/23,694,,150.737,no signal,antenna,,,,W,,,,NA
+SS,1/17/23,700,,148.999,no signal,antenna,,,,W,,,,NA
+SS,1/17/23,622,,150.757,no signal,antenna,,,,B,,,,NA
+SS,1/19/23,678,1,150.042,alive,visual,581100,4924499,4,W,100,100,100,0
+SS,1/19/23,8702,15,150.163,alive,visual,581508,4923760,4,B,0,75,95,8
+SS,1/19/23,676,8,150.122,alive,visual,581300,4922227,1,B,0,100,100,4
+SS,1/19/23,668,7,150.021,alive,visual,580984,4922330,4,B,0,95,100,1
+SS,1/19/23,671,6,151.453,alive,visual,580993,4922222,1,B,0,100,100,5
+SS,1/19/23,613,,150.183,alive,antenna,,,,B,,,,NA
+SS,1/19/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,1/19/23,631,,150.202,alive,antenna,,,,B,,,,NA
+SS,1/19/23,627,,150.101,alive,antenna,,,,B,,,,NA
+SS,1/19/23,616,,150.083,alive,antenna,,,,B,,,,NA
+SS,1/26/23,627,1,150.101,alive,visual,581242,4923383,4,B,0,100,100,0
+SS,1/26/23,616,1,150.083,alive,visual,581049,4923390,3,B,0,100,100,3
+SS,1/26/23,631,3,150.202,alive,visual,581095,4923740,4,B,0,100,100,3
+SS,1/26/23,613,,150.183,alive,antenna,581014,4923575,4,B,0,100,100,NA
+SS,1/26/23,670,,150.063,alive,visual,,,,B,0,100,100,NA
+SS,1/26/23,678,,150.042,alive,antenna,,,,W,,,,NA
+SS,1/26/23,8702,,150.163,alive,antenna,,,,,,,,NA
+SS,1/26/23,676,,150.122,alive,antenna,,,,,,,,NA
+SS,1/26/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,1/26/23,671,,151.453,see comments,antenna,,,,B,,,,NA
+SS,2/6/23,613,2,150.183,alive,visual,581070,4923559,1,B,0,100,100,3
+SS,2/6/23,678,2,150.042,alive,visual,581046,4924514,1,W,100,100,100,5.5
+SS,2/6/23,668,8,150.021,alive,visual,581053,4922266,1,B,0,80,100,1
+SS,2/6/23,671,,151.453,no signal,antenna,,,,B,,,,NA
+SS,2/6/23,676,9,150.122,alive,visual,581201,4922170,1,B,0,100,100,5
+SS,2/6/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,2/6/23,631,,150.202,alive,antenna,,,,B,,,,NA
+SS,2/6/23,616,,150.183,alive,antenna,,,,B,,,,NA
+SS,2/6/23,627,,150.101,alive,antenna,,,,B,,,,NA
+SS,2/16/23,613,,150.183,alive,antenna,,,,B,,,,NA
+SS,2/16/23,627,,150.101,dead,visual,,,,B,,,,NA
+SS,2/16/23,616,,150.083,dead,visual,,,,B,,,,NA
+SS,2/16/23,670,3,150.063,alive,antenna,580936,4923735,4,B,,100,100,NA
+SS,2/16/23,631,4,150.202,alive,visual,581115,4923711,NA,B,0,100,100,18
+SS,2/16/23,678,,150.042,alive,antenna,,,,W,,,,NA
+SS RP,2/20/23,678,3,150.042,alive,visual,581014,4925415,3,W,100,100,100,0.5
+SS RP,2/20/23,613,3,150.183,alive,visual,580992,4923596,4,B,0,100,100,0
+SS RP,2/20/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS RP,2/20/23,631,,150.202,alive,antenna,,,,B,,,,NA
+RP,2/20/23,676,,150.122,alive,visual,,,,,0,,,NA
+RP,2/20/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,3/1/23,613,,150.183,alive,antenna,,,,B,,,,NA
+SS,3/1/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,3/1/23,631,,150.202,alive,antenna,,,,B,,,,NA
+SS,3/1/23,678,,150.042,alive,antenna,,,,W,,,,NA
+SS RP,3/8/23,678,,150.042,alive,visual,581108,4924534,4,W,100,100,100,NA
+RP,3/8/23,676,,150.122,dead,antenna,,,,,,,,NA
+RP,3/8/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS RP,3/8/23,613,,150.183,dead,visual,,,,B,,,,NA
+SS RP,3/8/23,670,4,150.063,alive,visual,580940,4923652,3,B,0,100,100,4
+SS RP,3/8/23,631,,150.202,alive,visual,,,4,B,0,100,100,NA
+SS,3/16/23,678,4,150.042,alive,visual,581087,4924450,4,W,100,100,100,0
+SS,3/16/23,631,5,150.202,alive,visual,581100,4923725,1,B,0,100,100,4
+SS,3/16/23,670,5,150.063,alive,visual,581509,4923634,1,B,0,100,100,2.5
+SS,3/20/23,959,1,150.142,alive,visual,574959,4891952,4,B,0,0,0,1
+SS,3/20/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,3/22/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,3/22/23,631,,150.202,alive,antenna,,,,B,,,,NA
+SS,3/22/23,678,,150.042,alive,visual,581079,49245346,,W,95,,,NA
+SS RP,3/29/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS RP,3/29/23,678,5,150.042,alive,visual,581060,4924583,3,W,95,100,100,3
+SS RP,3/29/23,631,6,150.202,alive,visual,581107,4923720,4,B,0,100,100,1
+SS RP,3/30/23,958,,150.083,alive,antenna,,,,,,,,NA
+SS RP,3/30/23,959,,150.142,alive,antenna,,,,,,,,NA
+RP,3/29/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS RP,4/5/23,904,1,150.101,alive,visual,575262,4891598,2,B,0,5,60,4
+SS RP,4/5/23,958,,150.083,dead,antenna,,,,,,,,NA
+SS RP,4/5/23,959,,150.142,dead,visual,,,,,,,,NA
+RP,4/5/23,678,,150.042,alive,visual,581132,4924530,4,W,90,100,100,NA
+SS,4/5/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,4/5/23,631,,150.202,alive,antenna,,,,B,,,,NA
+RP,4/5/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,4/6/23,958,,150.083,dead,visual,,,,,,,,NA
+SS,4/12/23,678,6,150.042,alive,visual,581040,4924525,3,W,95,100,100,4.5
+SS,4/12/23,670,6,150.063,alive,visual,581309,4923671,1,B,0,100,100,8
+SS,4/12/23,631,7,150.202,alive,visual,581048,4923706,1,B,0,100,100,8
+SS,4/12/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,4/14/23,904,,150.101,dead,visual,,,,,,,,NA
+SS,4/14/23,908,,150.142,alive,antenna,,,,,,,,NA
+SS,4/17/23,908,1,150.142,alive,visual,573753,4890907,4,B,0,100,100,0
+SS,4/17/23,952,,150.183,dead,visual,,,,,,,,NA
+SS,4/20/23,913,,150.183,alive,antenna,,,,,,,,NA
+SS,4/20/23,781,,150.083,alive,antenna,,,,,,,,NA
+SS,4/20/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,4/20/23,678,7,150.042,alive,visual,581172,4924612,1,W,95,100,100,3
+SS,4/20/23,631,,150.202,alive,antenna,,,,B,,,,NA
+SS,4/20/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,4/25/23,781,1,150.083,alive,visual,573278,4891441,4,B,0,0,0,0
+SS,4/25/23,908,2,150.142,alive,visual,573823,4890781,4,B,0,0,0,0.5
+SS,4/25/23,913,1,150.183,alive,visual,573996,4890663,1,B,0,0,0,2
+SS,4/25/23,953,1,150.163,alive,visual,573644,4890897,3,B,0,0,0,1
+SS,4/25/23,678,8,150.042,alive,visual,581037,4924501,1,W,95,100,100,1
+SS,4/25/23,631,8,150.202,alive,visual,581086,4923738,4,B,0,100,100,3
+SS,4/25/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,4/25/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,5/1/23,678,,150.042,alive,antenna,,,,W,,,,NA
+SS,5/1/23,631,,150.202,alive,antenna,,,,B,,,,NA
+SS,5/1/23,670,,150.063,alive,antenna,,,,B,,,,NA
+SS,5/1/23,668,,150.021,alive,antenna,,,,B,,,,NA
+SS,5/1/23,940,,150.101,alive,antenna,,,,,,,,NA
+SS,5/1/23,781,,150.083,alive,antenna,,,,,,,,NA
+SS,5/1/23,908,,150.142,alive,antenna,,,,,,,,NA
+SS,5/1/23,913,,150.183,alive,antenna,,,,,,,,NA
+SS,5/1/23,953,,150.163,alive,antenna,,,,,,,,NA

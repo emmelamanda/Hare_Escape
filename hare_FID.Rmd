@@ -1,0 +1,468 @@
+---
+title: "hare_FID_2026"
+author: "Amanda Emmel"
+date: "2026-6-12"
+output: html_document
+---
+Reading in packages and FID data
+```{r install}
+library(dplyr)
+library(ggplot2)
+require(AICcmodavg);  require(gclus);  require(SASmixed)
+if (!requireNamespace("lmerTest", quietly = TRUE)) {install.packages("lmerTest")}
+library(Matrix)
+library(lme4)
+library(lmerTest)
+library(tidyr)
+library(AICcmodavg)
+library(patchwork)
+FID <- read.csv("hare_FID.csv")
+```
+
+  Replace blanks with NA, Removing records with NA for FID.
+  Classify hare % white and 1 and 10m snow values as numeric, Eartag as factor
+```{r NArm_classes}
+FID[FID == ''] <- NA
+FID[FID == 'n/a'] <- NA
+FIDs <- drop_na(FID, FID_m)
+FIDs <- drop_na(FID, Eartag)
+
+FID$P_White <- as.numeric(FID$P_White)
+class(FID$P_White)
+FID$snow_1m <- as.numeric(FID$snow_1m)
+class(FID$snow_1m)
+FID$snow_10m <- as.numeric(FID$snow_10m)
+class(FID$snow_10m)
+FID$rep <- as.numeric(FID$rep)
+class(FID$rep)
+FID$Concealment <-as.numeric(FID$Concealment)
+class(FID$Concealment)
+FID$conc <- as.numeric((FID$Concealment)*25 - 12.5)
+class(FID$conc)
+FID$Eartag <- as.factor(FID$Eartag)
+class(FID$Eartag)
+```
+
+  Create square-root transformed FID variable. Create subsets of data where Concealment values and FID values are all recorded.
+```{r data subsets}
+#Drop values with NA for FID, eartag, and filter FIDs to those under 20m.
+FIDs <- drop_na(FID, FID_m)
+FIDs <- drop_na(FID, Eartag)
+FIDs <- filter(FIDs, FID_m <= 20)
+
+#Create square-root transformed FID variable and view its distribution
+FIDs$FID <- sqrt(FIDs$FID_m)
+hist(FIDs$FID)
+
+#Calculate contrast (hare % white - % snow) at 1m and 10m, calculate mismatch as absolute value of contrast
+FID$m_contrast <-(FID$P_White - FID$snow_1m)
+FID$tenm_contrast <-(FID$P_White - FID$snow_10m)
+FIDs$m_contrast <-(FIDs$P_White - FIDs$snow_1m)
+FIDs$tenm_contrast <-(FIDs$P_White - FIDs$snow_10m)
+FID$mm1m <- abs(FID$m_contrast)
+FID$mm10m <- abs(FID$tenm_contrast)
+FIDs$mm1m <- abs(FIDs$m_contrast)
+FIDs$mm10m <- abs(FIDs$tenm_contrast)
+
+#Creating subsets of data without missing values of relevant variables
+FIDcc <- filter(FIDs, WCC!='UNK')          #known color morph for all hares
+snoFID <- drop_na(FIDs, snow_1m, snow_10m) #known FID and snow cover
+snoFIDcc <- drop_na(FIDcc, snow_1m, snow_10m) #known color morph, FID, and snow cover
+
+Conc <- drop_na(FID, Concealment)           #known concealment
+Concc <- filter(Conc, WCC!='UNK')            #known concealment and color morph
+snoConc <-drop_na(Conc, snow_1m, snow_10m)   #known concealment and snow cover
+snoConcc <- drop_na(Concc, snow_1m, snow_10m) #known color morph, concealment, and snow cover
+```
+
+Data summaries - sample sizes by hare coat color, number of individual hares, avg # FIDs/individual, avg FID
+```{r data_summaries}
+print(FIDWCCtab <-table(FIDcc$WCC))
+print(ConcWCCtab <- table(Concc$WCC))
+print(snoFIDcctab <- table(snoFIDcc$WCC))
+
+bsfc <- filter(snoFIDcc, WCC=='B')
+wsfc <- filter(snoFIDcc, WCC=='W')
+
+length(unique(bsfc$Eartag))
+length(unique(wsfc$Eartag))
+
+mean(snoFIDcc$rep, na.rm = TRUE)
+max(snoFIDcc$rep)
+mean(snoFIDcc$FID_m)
+mean(bsfc$FID_m)
+mean(wsfc$FID_m)
+
+plot(FIDs$rep, FIDs$FID)
+
+#check for evidence of habituation affecting FID
+summary(habit <- lmer(FID ~ rep + (1 | Eartag), FIDs))
+```
+
+Making versions of all datasets with JUST winter brown or winter white hares
+```{r wb datasets}
+#BROWN_____________________________________________________
+bFIDs <- filter(FIDs, WCC=='B')
+bsnoFID <- drop_na(bFIDs, snow_1m, snow_10m)
+bConc <- filter(Conc, WCC=='B')
+bsnoConc <-drop_na(bConc, snow_1m, snow_10m)
+
+#WHITE______________________________________________________
+wFIDs <- filter(FIDs, WCC=='W')
+wsnoFID <- drop_na(wFIDs, snow_1m, snow_10m)
+wConc <- filter(Conc, WCC=='W')
+wsnoConc <-drop_na(wConc, snow_1m, snow_10m)
+```
+
+Correlaton matrix
+```{r corr}
+num_FIDs <- FIDs[, sapply(FIDs, is.numeric)]
+num_FIDs <- drop_na(num_FIDs)
+cor(num_FIDs)
+
+#another matrix just for white hares (to see correlation between coat whiteness and % snow)
+num_wFIDs <- wFIDs[, sapply(wFIDs, is.numeric)]
+num_wFIDs <- drop_na(num_wFIDs)
+cor(num_wFIDs)
+```
+
+
+
+      ~____________QUESTION 1____________~
+  Do sympatric color morphs differ in their predator avoidance behavior?
+  
+  H1: Sympatric color morphs differ in their predator avoidance behavior.
+      P1a: Difference in FID between color morphs
+      P1b: Difference in Concealment between color morphs
+      
+```{r}
+summary(P1a <- lmer (FID ~ WCC + (1|Eartag), snoFIDcc))
+plot(P1a)
+qqnorm(resid(P1a))
+
+summary(P1b <- lmer (conc ~ WCC + (1|Eartag), snoFIDcc))
+plot(P1b)
+qqnorm(resid(P1b))
+```
+No evidence that FID or Concealment differs between the color morphs.
+  
+     ~__________QUESTION 2___________~
+ Is there evidence of behavioral plasticity to mitigate mismatch in this polymorphic hare population?
+ 
+ H2: Mismatched hares will adjust their predator avoidance behavior to mitigate the risk of being mismatched.
+    P2a: Mismatched hares will exhibit longer FIDs than camouflaged hares, leading to a positive relationship between % color contrast and FID.
+    P2b: Mismatched hares will choose more concealed resting locations than camouflaged hares.
+```{r}
+summary(p2a <- lmer (FID ~ mm1m + (1 | Eartag), snoFIDcc))
+  plot(p2a)
+  qqnorm(resid(p2a))
+
+summary(p2aa <- lmer (FID ~ mm10m + (1 | Eartag), snoFIDcc))
+  plot(p2aa)
+  qqnorm(resid(p2aa))
+
+summary(p2b <- lmer (conc ~ mm1m + (1 | Eartag), snoFIDcc))
+  plot(p2b)
+  qqnorm(resid(p2b))
+
+summary(p2bb <- lmer (conc ~ mm10m + (1 | Eartag), snoFIDcc))
+  plot(p2bb)
+  qqnorm(resid(p2bb))
+
+summary(pcc2a <- lmer (FID ~ mm1m*WCC + (1|Eartag), snoFIDcc))
+  plot(pcc2a)
+  qqnorm(resid(pcc2a))
+
+summary(pcc2aa <- lmer (FID ~ mm10m*WCC + (1|Eartag), snoFIDcc))
+  plot(pcc2aa)
+  qqnorm(resid(pcc2aa))
+
+summary(pcc2b <- lmer (conc ~ mm1m*WCC + (1|Eartag), snoFIDcc))
+  plot(pcc2b)
+  qqnorm(resid(pcc2b))
+
+summary(pcc2bb <- lmer (conc ~ mm10m*WCC + (1|Eartag), snoFIDcc))
+  plot(pcc2bb)
+  qqnorm(resid(pcc2bb))
+```
+
+```{r Testing FID hypotheses including concealment}
+summary(P1aC <- lmer (FID ~ WCC + conc + (1|Eartag), snoFIDcc))
+plot(P1aC)
+qqnorm(resid(P1aC))
+
+summary(p2aC <- lmer (FID ~ mm1m + conc + (1 | Eartag), snoFIDcc))
+  plot(p2aC)
+  qqnorm(resid(p2aC))
+
+summary(p2aaC <- lmer (FID ~ mm10m + conc + (1 | Eartag), snoFIDcc))
+  plot(p2aaC)
+  qqnorm(resid(p2aaC))
+  
+summary(pcc2aC <- lmer (FID ~ mm1m*WCC + conc + (1|Eartag), snoFIDcc))
+  plot(pcc2aC)
+  qqnorm(resid(pcc2aC))
+
+summary(pcc2aaC <- lmer (FID ~ mm10m*WCC + conc + (1|Eartag), snoFIDcc))
+  plot(pcc2aaC)
+  qqnorm(resid(pcc2aaC))
+```
+    
+BELOW THIS POINT: CODE FOR SUPPORTING INFORMATION AND OTHER LEFTOVERS
+
+  Plot FIDs by Winter color morph
+```{r fid wcc plot}
+ggplot(data = FIDcc,
+       mapping = aes(x = WCC, y = FID_m, fill=WCC)) +
+  geom_boxplot(color="lightgray") +
+  scale_fill_manual(values=c("#CC9966", "snow")) + ylab("FID (m)") + xlab("Winter Color Morph") +
+  ggtitle("Flight Initiation Distance (FID) by Winter Color Morph") +
+  theme_dark()+
+ theme(legend.position = "none")
+        
+```
+
+  Plot FID against coat color contrast
+```{r fid contrast plot}
+print(mcontrastFID <- ggplot(data = snoFIDcc, aes(x = m_contrast, y = FID_m, color=P_White)) +
+  geom_point() +
+  geom_smooth(method=glm, linewidth=0.2, colour="yellow") + 
+  scale_color_gradient("Hare % White", low="#CC9966", high= "#FFFFFFFF") +
+  scale_shape_manual("Color Morph", values=c(16, 17)) +
+  theme_dark() +
+  ylab("FID (m)") + xlab("% contrast with ground color at 1m") + ggtitle("FID and Mismatch (1m) of Polymorphic Hares"))
+
+print(tenmcontrastFID <- ggplot(data = snoFIDcc, aes(x = tenm_contrast, y = FID_m, color=P_White)) +
+  geom_point() +
+  geom_smooth(method=glm, linewidth=0.2, colour="yellow") + 
+  scale_color_gradient("Hare % White", low="#CC9966", high= "#FFFFFFFF") +
+  scale_shape_manual("Color Morph", values=c(16, 17))+
+  theme_dark() +
+  ylab("FID (m)") + xlab("% contrast with ground color at 10m") + ggtitle("FID and Mismatch (10m) of Polymorphic Hares"))
+
+#This version with absolute value transformation on contrast
+print(mm10FID <- ggplot(data = snoFIDcc, aes(x = mm10m, y = FID_m, color=P_White)) +
+  geom_point(aes(shape=WCC)) +
+  geom_smooth(method=glm, linewidth=0.2, colour="yellow") + 
+  scale_color_gradient("Hare % White", low="#CC9966", high= "#FFFFFFFF") +
+  scale_shape_manual("Color Morph", values=c(16, 17))+
+  theme_dark() +
+  ylab("FID (m)") + xlab("% Color Mismatch at 10m") + ggtitle("FID and Mismatch (10m) of Polymorphic Hares"))
+```
+
+  Model selection - coat color and mismatch
+```{r polymorphic fid model selection}
+Poly.models <- list()
+Poly.models[[01]] <- lmer (FID ~ (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[02]] <- lmer (FID ~ WCC + (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[03]] <- lmer (FID ~ mm1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[04]] <- lmer (FID ~ mm10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[05]] <- lmer (FID ~ WCC*mm1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[06]] <- lmer (FID ~ WCC*mm10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[07]] <- lmer (FID ~ snow_1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[08]] <- lmer (FID ~ snow_10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[09]] <- lmer (FID ~ WCC*snow_1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[10]] <- lmer (FID ~ WCC*snow_10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[11]] <- lmer (FID ~ WCC*mm1m + snow_1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+Poly.models[[12]] <- lmer (FID ~ WCC*mm10m + snow_10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+
+   PModnames <- c("ETnull","wcc","1m","10m","wcc*1","wcc*10","1sno","10sno","wcc*1sno", "wcc*10sno", "wcc*1m_1sno", "wcc*10m_10sno") 
+   
+aicPoly<-aictab(cand.set = Poly.models, modnames = PModnames, sort = TRUE)
+  aicPoly
+
+  #Top model summary  
+summary(Poly.models[[08]])
+confint(Poly.models[[08]])
+
+summary(Poly.models[[07]])
+
+summary(Poly.models[[02]])
+confint(Poly.models[[02]])
+
+  #Warnings about scaling on interaction models
+```
+
+```{r Polymorphic model selection including Concealment}
+CPoly.models <- list()
+CPoly.models[[01]] <- lmer (FID ~ (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[02]] <- lmer (FID ~ WCC + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[03]] <- lmer (FID ~ mm1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[04]] <- lmer (FID ~ mm10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[05]] <- lmer (FID ~ WCC*mm1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[06]] <- lmer (FID ~ WCC*mm10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[07]] <- lmer (FID ~ snow_1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[08]] <- lmer (FID ~ snow_10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[09]] <- lmer (FID ~ WCC*snow_1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[10]] <- lmer (FID ~ WCC*snow_10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[11]] <- lmer (FID ~ WCC*mm1m + snow_1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[12]] <- lmer (FID ~ WCC*mm10m + snow_10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[13]] <- lmer (FID ~ conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[14]] <- lmer (FID ~ WCC + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[15]] <- lmer (FID ~ mm1m + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[16]] <- lmer (FID ~ mm10m + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[17]] <- lmer (FID ~ WCC*mm1m + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[18]] <- lmer (FID ~ WCC*mm10m + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[19]] <- lmer (FID ~ snow_1m + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[20]] <- lmer (FID ~ snow_10m + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[21]] <- lmer (FID ~ WCC*snow_1m + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[22]] <- lmer (FID ~ WCC*snow_10m + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[23]] <- lmer (FID ~ WCC*mm1m + snow_1m + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+CPoly.models[[24]] <- lmer (FID ~ WCC*mm10m + snow_10m + conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+
+  CPModnames <- c("ETnull","wcc","1m","10m","wcc*1","wcc*10","1sno","10sno","wcc*1sno", "wcc*10sno", "wcc*1m_1sno", "wcc*10m_10sno", "c", "c_wcc","c_1m","c_10m","c_wcc*1","c_wcc*10","c_1sno","c_10sno","c_wcc*1sno", "c_wcc*10sno", "c_wcc*1m_1sno", "c_wcc*10m_10sno") 
+   
+aicPolyC<-aictab(cand.set = CPoly.models, modnames = CPModnames, sort = TRUE)
+  aicPolyC
+
+  #Top model summary  
+summary(CPoly.models[[20]])
+confint(CPoly.models[[20]])
+
+summary(Poly.models[[07]])
+
+summary(Poly.models[[02]])
+confint(Poly.models[[02]])
+
+  #Warnings about scaling on interaction models
+```
+
+Model selection - effects of WCC, snow, and mismatch on Concealment
+```{r conc model selection}
+Conc.models <- list()
+Conc.models[[01]] <- lmer (conc ~ (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[02]] <- lmer (conc ~ WCC + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[03]] <- lmer (conc ~ mm1m + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[04]] <- lmer (conc ~ mm10m + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[05]] <- lmer (conc ~ WCC*mm1m + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[06]] <- lmer (conc ~ WCC*mm10m + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[07]] <- lmer (conc ~ snow_1m + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[08]] <- lmer (conc ~ snow_10m + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[09]] <- lmer (conc ~ WCC*mm1m + snow_1m + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[10]] <- lmer (conc ~ WCC*mm10m + snow_10m + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[11]] <- lmer (conc ~ P_White + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[12]] <- lmer (conc ~ P_White*mm1m + (1 | Eartag), snoConcc, REML=FALSE)
+Conc.models[[13]] <- lmer (conc ~ P_White*mm10m + (1 | Eartag), snoConcc, REML=FALSE)
+
+   Concnames <- c("ETnull","wcc","1m","10m","wcc*1","wcc*10","1sno","10sno", "wcc*1m_1sno", "wcc*10m_10sno", "pwhite", "pwhite*1", "pwhite*10") 
+ 
+summary(Conc.models[[11]])
+confint(Conc.models[[11]]) 
+   
+summary(Conc.models[[03]])
+confint(Conc.models[[03]])
+
+summary(Conc.models[[04]])
+confint(Conc.models[[04]])   
+
+aicConc<-aictab(cand.set = Conc.models, modnames = Concnames, sort = TRUE)
+  aicConc
+  
+#ALL of these are Singular. What if I do this without the random effect for individual?
+gConc.models <- list()
+gConc.models[[01]] <- glm (conc ~ 1, data=snoConcc)
+gConc.models[[02]] <- glm (conc ~ WCC, data=snoConcc)
+gConc.models[[03]] <- glm (conc ~ m_contrast, data=snoConcc)
+gConc.models[[04]] <- glm (conc ~ tenm_contrast, data=snoConcc)
+gConc.models[[05]] <- glm (conc ~ WCC*m_contrast, data=snoConcc)
+gConc.models[[06]] <- glm (conc ~ WCC*tenm_contrast, data=snoConcc)
+gConc.models[[07]] <- glm (conc ~ snow_1m, data=snoConcc)
+gConc.models[[08]] <- glm (conc ~ snow_10m, data=snoConcc)
+gConc.models[[09]] <- glm (conc ~ WCC*m_contrast + snow_1m, data=snoConcc)
+gConc.models[[10]] <- glm (conc ~ WCC*tenm_contrast + snow_10m, data=snoConcc)
+gConc.models[[11]] <- glm (conc ~ P_White, data=snoConcc)
+gConc.models[[12]] <- glm (conc ~ P_White*m_contrast, data=snoConcc)
+gConc.models[[13]] <- glm (conc ~ P_White*tenm_contrast, data=snoConcc)
+   gConcnames <- c("ETnull","wcc","1m","10m","wcc*1","wcc*10","1sno","10sno", "wcc*1m_1sno", "wcc*10m_10sno", "pwhite", "pwhite*1", "pwhite*10") 
+   
+aicgConc<-aictab(cand.set = gConc.models, modnames = gConcnames, sort = TRUE)
+  aicgConc
+  
+summary(gConc.models[[11]])
+confint(gConc.models[[11]])
+  
+  summary(gConc.models[[03]])
+confint(gConc.models[[03]])
+
+summary(gConc.models[[04]])
+confint(gConc.models[[04]])
+```
+
+Effects of Concealment on FID
+```{r fid ~ conc model selection}
+
+  FConc.models <- list ()
+FConc.models[[01]] <- lmer (FID ~ (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[02]] <- lmer (FID ~ conc + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[03]] <- lmer (FID ~ conc + WCC + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[04]] <- lmer (FID ~ conc + mm1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[05]] <- lmer (FID ~ conc + mm10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[06]] <- lmer (FID ~ conc + mm1m + WCC + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[07]] <- lmer (FID ~ conc + mm10m + WCC + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[08]] <- lmer (FID ~ conc + P_White + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[09]] <- lmer (FID ~ conc + mm1m + P_White + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[10]] <- lmer (FID ~ conc + mm10m + P_White + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[11]] <- lmer (FID ~ conc + snow_1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[12]] <- lmer (FID ~ conc + snow_10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[13]] <- lmer (FID ~ conc + mm1m + snow_1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[14]] <- lmer (FID ~ conc + mm10m + snow_10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[15]] <- lmer (FID ~ conc*mm1m + (1 | Eartag), snoFIDcc, REML=FALSE)
+FConc.models[[16]] <- lmer (FID ~ conc*mm10m + (1 | Eartag), snoFIDcc, REML=FALSE)
+
+FCModnames <- c("ETnull", "C", "C_wcc","C_1m","C_10m","C_1_wcc","C_10_wcc", "C_Pw", "C_1m_Pw", "C_10m_Pw", "C_sno1", "C_sno10", "C_1m_1sno", "C_10m_10sno", "C*1m", "C*10m")
+   
+aicFConctab<-aictab(cand.set = FConc.models, modnames = FCModnames, sort = TRUE)
+  aicFConctab
+  
+summary(FConc.models[[10]])
+confint(FConc.models[[10]])
+
+summary(FConc.models[[09]])
+confint(FConc.models[[09]])
+
+summary(FConc.models[[12]])
+confint(FConc.models[[12]])
+
+summary(FConc.models[[13]])
+confint(FConc.models[[13]])
+
+summary(FConc.models[[08]])
+confint(FConc.models[[08]])
+
+summary(FConc.models[[08]])
+confint(FConc.models[[08]])
+```
+
+PLOT: FID by Concealment
+```{r}
+FIDs$ggConc <- as.factor(FIDs$Concealment)
+ggFConc <- drop_na(FIDs, ggConc)
+ggplot(ggFConc, aes(x=ggConc, y=FID_m)) + geom_boxplot(color="grey", fill="aliceblue") + theme_dark() + xlab("Concealment") + ylab("FID (m)") + ggtitle("FID by Concealment")
+```
+
+PLOT: Mismatch Time Series
+```{r mismatch time series}
+
+vFID <- filter(FID, WCC=="UNK")
+vFID <- drop_na(FID, WCC, P_White, snow_10m, Date)
+
+fiddates <- vFID$Date
+dates <- as.Date(fiddates, format="%m/%d/%y")
+con <- vFID$tenm_contrast
+pw <- vFID$P_White
+wcc <- vFID$WCC
+
+timemm <- data.frame(dates, con, pw, wcc)
+
+ggplot(timemm, aes(x = dates, y = con, group = wcc, color = pw)) + 
+     theme_dark() +
+     geom_line() + 
+     geom_point(size=.7) +
+      scale_color_gradient("Hare % White", low="#CC9966", high= "#FFFFFFFF") + 
+       xlab("Date") + ylab("% Coat Color Mismatch") + ggtitle("Observed Hare Coat Color Mismatch Time Series") +
+     scale_x_date(breaks = as.Date(c("2020-11-15", "2021-5-15", "2021-11-15", "2022-5-15", "2022-11-15")), labels = c("Nov 2020", "May 2021", "Nov 2021", "May 2022", "Nov 2022"))
+      
+```
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
