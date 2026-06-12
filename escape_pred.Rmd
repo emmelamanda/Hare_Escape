@@ -1,0 +1,184 @@
+---
+title: "escape_pred"
+author: "Amanda Emmel"
+date: "2026-6-12"
+output: html_document
+---
+  Loading packages and escape choice data
+```{r install}
+library(dplyr)
+require(AICcmodavg);  require(gclus);  require(SASmixed)
+library(ggplot2)
+library(tidyverse)
+library(tidyr)
+library(nnet)
+if (!requireNamespace("lmerTest", quietly = TRUE)) {install.packages("lmerTest")}
+library(Matrix)
+library(lme4)
+library(lmerTest)
+library(dplyr)
+
+escape <- read.csv("escape_pred.csv")
+```
+ 
+ Converting concealment and FID values to numeric
+Converting eartag, escape choice, and threat to factors
+```{r NArm_classes}
+escape$conc <-as.numeric(escape$Concealment.rest)
+class(escape$conc)
+escape$conc2 <-as.numeric(escape$Concealment.recov)
+class(escape$conc2)
+
+escape$FID <- as.numeric(escape$Hare.FID..m.)
+class(escape$FID)
+escape$FID2 <- as.numeric(escape$X2Hare.FID..m.)
+class(escape$FID2)
+  
+escape$Hare.ET. <- as.factor(escape$Hare.ET.)
+class(escape$Hare.ET.)
+
+escape$Threat <- factor(escape$Threat)
+escape$choice1 <- factor(escape$choice1)
+escape$choice2 <- factor(escape$choice2)
+escape$hole <- factor(escape$hole)
+class(escape$Threat)
+class(escape$choice1)
+class(escape$choice2)
+class(escape$hole)
+escape$Hare...white <- factor(escape$Hare...white)
+class(escape$Hare...white)
+escape$match <- factor(escape$match)
+class(escape$match)
+escape$REST..snow.10m <- factor(escape$REST..snow.10m)
+class(escape$REST..snow.10m)
+class(escape$rep)
+```
+
+Data summaries: # individuals and escape choices from approach 1, 2, and both made binary (Y/N hole on either approach)
+```{r escape choice data summaries} 
+length(unique(escape$Hare.ET.))
+mean(escape$rep)
+
+print(escatab1 <-table(escape$Threat, escape$choice1))
+  
+escape2 <- drop_na(escape, choice2)
+print(escatab2 <-table(escape2$Threat, escape2$choice2))
+escatab2
+  
+print(escatab <- table(escape$Threat, escape$hole))
+```
+  Plotting escape choice against predator type for each approach
+```{r Figure 1A}
+library(patchwork)
+print( esc_plot_1 <- ggplot(escape, aes(x = Threat, fill=(choice1))) + 
+  theme_minimal() +
+  geom_bar(position="fill") +
+  ggtitle("", "First Approach") +
+  xlab("Predator") +
+  ylab("Frequency of Use") +
+  scale_fill_brewer('Escape Decision', palette = "Greens", labels = c("Flight", "Vegetation Refuge", "Subsurface Refuge")) +
+  theme(legend.position="none") +
+  labs(tag = "A"))
+
+print(esc_plot_2 <- ggplot(escape2, aes(x = Threat, fill=choice2)) + 
+  theme_minimal() +
+  geom_bar(position="fill") +
+  ggtitle("", "Second Approach") +
+  xlab("Predator") +
+  ylab("Frequency of Use") +
+  scale_fill_brewer('Escape Decision', palette = "Greens", labels = c("Flight", "Vegetation Refuge", "Subsurface Refuge")))
+
+print(esc_1_2_plot <- esc_plot_1 + esc_plot_2 + plot_layout(ncol=2, axis_titles = "collect") + theme(plot.title=element_text(hjust=0)))
+```
+
+  Plotting subsurfage refuge use (in either approach) by predator type
+```{r Figure 1B}
+ggplot(escape, aes(x = Threat, fill = hole)) + 
+  theme_minimal() +
+  geom_bar(position="fill")+
+  xlab("Predator") +
+  ylab("Frequency of Use") +
+  scale_fill_brewer('Escape Decision', palette = "YlOrBr", labels = c("Surface (Flight or Vegetation Refuge)", "Subsurface Refuge")) +
+  labs(tag = "B")
+```
+
+  Fisher's Exact Test (nonparametric because after adding dog data, chi-squared assumptions are not met)
+```{r Fisher's Exact Test}
+fisher.test(escatab)
+```
+With p=0.0006557, there is very strong evidence of a relationship between escape choice and predator type. 
+
+Setting the Reference groups - flight for response variable, Human for explanatory variable
+```{r reference groups}
+escape$choice1 <- relevel(escape$choice1, ref = "F")
+escape2$choice2 <- relevel(escape2$choice2, ref = "F")
+escape$Threat <- relevel(escape$Threat, ref ="Human")
+escape2$Threat <- relevel(escape2$Threat, ref = "Human")
+```
+
+    ~___________QUESTION 3___________~
+    
+  Do hares exhibit behavioral plasticity in regards to predator type?
+  
+  H3: Hares will exhibit behavioral plasticity in regards to predator functional group, given differences in predator hunting mode and appropriate escape behaviors.
+  
+      P3a: Hares will use subterranean refuges more often in encounters with avian predators than in    encounters with terrestrial predators.
+      P3b: Hares will use subterranean refuges less often when a dog is present compared to an avian predator or human alone.
+      
+      P3c: Hare flight initiation distance (FID) will differ according to predator type.
+```{r Hypothesis testing}
+library(lme4)
+summary(p3ab <- glm(hole ~ Threat, data = escape, family = binomial(link="logit")))
+summary(p3c1 <- lm (FID ~ Threat, data=escape))
+summary(p3c2 <- lm (FID2 ~ Threat, data=escape))
+```
+No effect of predator type on FID, but strong effect of predator type on hole use.
+
+With the intercept equal to -2.3026, with human set as our reference or dummy variable, we learn that a human technician alone as a terrestrial predator reduces the log odds of hole use by 2.303. The slope of our avian variable tells us that an avian predator increases the log odds of hole use by 2.6593. A canine reduces the log odds of hole use by -0.1823, but our p-value of 0.88656 for this canine variable indicates a lack of significance.
+
+
+```{r Odds & LRT & predicted probabilities}
+print(odds_hole_hawk <- exp(2.6593))
+
+ hole_D <- 58.483 - 43.490
+ 1-pchisq(hole_D, 1)
+ 
+print(hole_pp <- fitted(p3ab))
+```
+The odds of a hare using a hole are predicted to increase by 14.29 times when a hawk is present. 
+With p=0.0001, predator type is a significant predictor of escape choice.
+And according to our model, it is 9% likely that a hare goes in a hole when a human is present, 8% likely when a dog is present, and 59% likely when a hawk is present.
+
+Confidence Intervals on Subsurface refuge use 
+```{r confidence intervals}
+hole_model <- glm(hole ~ Threat, data = escape, family = binomial(link="logit"))
+summary(hole_model)
+
+exp(cbind(OR = coef(hole_model), confint(hole_model)))
+
+hole_labels = c("Canine", "Avian")
+xAxis = length(hole_labels):1
+
+hole_df_1 <- data.frame(xAxis = length(hole_labels):1,
+                    hole_odds = c(0.83333, 14.2857143),
+                    hole_CIlow = c(0.03641846, 2.91490923),
+                    hole_CIhi = c(9.6301887, 109.5675878))
+
+hole_plot_1 <- ggplot(hole_df_1, aes(y = hole_odds, x = xAxis)) + 
+        theme_dark() +
+        geom_hline(aes(yintercept=1), linewidth = .25, linetype="dashed", color = "lightgrey") + 
+        geom_errorbar(aes(ymax = hole_CIhi, ymin = hole_CIlow), linewidth = .5, height = .2, color = "white") +   geom_point(size = 3.5, color = "gold") +
+              theme_dark() +
+              scale_x_continuous(breaks = xAxis, labels = hole_labels)+
+              scale_y_continuous(breaks = c(1, 3, 14, 110)) +
+              coord_trans(y = "log") +
+              ylab ("Odds ratio (log scale)") + 
+              xlab ("") +
+              annotate(geom = "text", y =1.1, x = 3.5, 
+                label ="", size = 3.5) + 
+              labs(title = "Odds of Subsurface Refuge Use by Predator Type",
+            subtitle = "Relative to Human")
+
+hole_plot_1
+```
+
