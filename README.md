@@ -63,7 +63,8 @@ Data files and variables
 **mm10m**: Absolute value of hare color contrast (mismatch) at 10m, or the difference between hare percent white and percent snow cover within a 10m radius
 
 
-**escape variables**
+
+***escape variables***
 **Threat**: Predator type (Avian, Canine, or Human)
 
 **Hare.ET**: Eartag number identifying individual hare
