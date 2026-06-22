@@ -15,9 +15,11 @@ In this study, we assessed behavioral plasticity in antipredator behavior in a w
 ### Analysis Summary
 
 **hare_FID.Rmd**
+
 We used linear mixed-effects models to test the effects of color morph and camouflage mismatch on hare escape behaviors. We modeled FID or concealment as a function of color morph, color contrast, and an interaction between the two. We included a square-root transformation of FID to normalize its distribution and reduce mild heteroscedasticity in the residuals. All models also included hare identity as a random effect accounting for variation between individuals.
 
 **escape_pred.Rmd**
+
 To test whether hares adjust escape decisions in response to predator type, we used generalized linear and linear models. These models did not include a random effect for individual. For the generalized linear model, we created a binary response variable indicating whether a hare used a subsurface refuge in either the initial or subsequent predator approach. We then modeled the probability of using subsurface refugia as a function of predator type using the glm function with a binomial error distribution and a logit link. From this model, we estimated pairs of odds and their 95% confidence intervals. Finally, we fit linear models to test the effect of predator type on hare FID.
 
 
@@ -36,6 +38,7 @@ Data files and variables
 ### Variables
 
 ***hare_FID variables***
+
 **Eartag**: Eartag number idenfitying individual hare
 
 **Concealment**: Estimated percent of the hare’s body obscured by vegetation at a 2 m radius from all sides in four categories (1:0-25%, 2: 25-50%, 3: 50-75%, and 4: 75-100%)
@@ -65,6 +68,7 @@ Data files and variables
 
 
 ***escape variables***
+
 **Threat**: Predator type (Avian, Canine, or Human)
 
 **Hare.ET**: Eartag number identifying individual hare
