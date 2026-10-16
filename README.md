@@ -8,7 +8,7 @@ This repository contains code and data for the project:
 
 **Citation**: 
 
-**Authors**: XXX
+**Authors**: Amanda Emmel, Marketa Zimova, Nate Bickford, and L. Scott Mills
 
 In this study, we assessed behavioral plasticity in antipredator behavior in a wild polymorphic snowshoe hare population. Using field experiments with putative predators including a hunting dog and falconry goshawks, we test effects of camouflage mismatch and predator type on hare FID, concealment, and discrete escape decisions.
 
@@ -152,8 +152,8 @@ Packages:
 
 **PERMITTING**
 
-All experimental protocols were approved through the XXX Institutional Care and Use Committee (Protocols No. 041-19SMRCS-071819, 028-21SMRCS-051121). Hare trapping was conducted under permission of Oregon Department of Fish and Wildlife (Permits 060-20, 060-21, 060-22, 060-23). Participating dog and falconry goshawks were privately owned and cared for.
+All experimental protocols were approved through the University of Montana Institutional Care and Use Committee (Protocols No. 041-19SMRCS-071819, 028-21SMRCS-051121). Hare trapping was conducted under permission of Oregon Department of Fish and Wildlife (Permits 060-20, 060-21, 060-22, 060-23). Participating dog and falconry goshawks were privately owned and cared for.
 
 **FUNDING**
 
-Funding for this work provided by National Science Foundation Division of Environmental Biology Grant 1907022 to XXX
+Funding for this work provided by National Science Foundation Division of Environmental Biology Grant 1907022 to Dr. L. Scott Mills
